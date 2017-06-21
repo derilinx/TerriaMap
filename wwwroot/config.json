@@ -9,10 +9,10 @@
         googleAnalyticsKey: null,
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
-        disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            url: ""
-        },
+//        disclaimer: {
+//            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+//            url: ""
+//        },
         /*
         // Text that will be added to any pages printed from your site.
         printDisclaimer:{
@@ -23,16 +23,16 @@
          
         // Pop-up disclaimer that will be shown at the start
         // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-        globalDisclaimer: {
-            confirmationRequired: true,
-            buttonTitle: "I agree",
-            title: "Disclaimer",
-            // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-            // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-            //prodHostRegex: "gov.\\.au$",
-            //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-            enableOnLocalhost: true // If false, don't show this when running on localhost
-        },
+//        globalDisclaimer: {
+//            confirmationRequired: true,
+//            buttonTitle: "I agree",
+//            title: "Disclaimer",
+//            // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
+//            // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
+//            //prodHostRegex: "gov.\\.au$",
+//            //devHostRegex: "\\b(staging|preview|test|dev)\\.",
+//            enableOnLocalhost: false // If false, don't show this when running on localhost
+//        },
         
         /*
         developerAttribution: {
@@ -40,12 +40,12 @@
             link: "http://www.example.com"
         },*/
         // This is used in various text messages. You should also set <title> in index.html
-        appName: "Terria Map",
+        appName: "OpenDevelopment",
 
         // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
         brandBarElements: [
             "",
-            "<a target=\"_blank\" href=\"http://www.nicta.com.au\"><img src=\"images/terria_logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+            "<a target=\"_blank\" href=\"http://172.104.153.179/\"><img src=\"images/ODMekong-logo-300x300.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
             ""
         ],
         // Shown when things go wrong.
