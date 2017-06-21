@@ -5,7 +5,7 @@ ckan.module('cesiumpreview', function (jQuery, _) {
             var self = this;
 
 //      var vis_server = 'http://localhost';  //local
-            var vis_server = 'http://nationalmap.nicta.com.au/';
+            var vis_server = 'http://172.104.153.179/';
 
             var config = {
                 "version": "0.0.03",
@@ -27,10 +27,10 @@ ckan.module('cesiumpreview', function (jQuery, _) {
                     }],
                     "catalogIsUserSupplied": true,
                     "homeCamera": {
-                        "west": 105,
+                        "north": 78,
+                        "east": 113,
                         "south": -45,
-                        "east": 155,
-                        "north": -5
+                        "west": 102,
                     }
 
                 }
@@ -49,9 +49,9 @@ ckan.module('cesiumpreview', function (jQuery, _) {
             }
 
             config["initSources"][0]['catalog'][0]['items'][0]['url'] = preload_resource['url'];
-                if (preload_resource['url'].indexOf('http') !== 0) {
-                    config["initSources"][0]['catalog'][0]['items'][0]['url'] = "http:" + preload_resource['url'];
-                }
+            if (preload_resource['url'].indexOf('http') !== 0) {
+                config["initSources"][0]['catalog'][0]['items'][0]['url'] = "http:" + preload_resource['url'];
+            }
             config["initSources"][0]['catalog'][0]['items'][0]['type'] = preload_resource['format'].toLowerCase();
 
             if (config["initSources"][0]['catalog'][0]['items'][0]['type'] == 'wms' || config["initSources"][0]['catalog'][0]['items'][0]['type'] == 'wfs') {
