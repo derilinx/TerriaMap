@@ -2,7 +2,7 @@
 
 {% block page %}
 <script>
-{% set package = c.package or h.get_action('package_show',{"id":c.id}) %}
+{% set package = c.package %}
     var spatial = '{{ package.spatial|safe }}';
 
 </script>
