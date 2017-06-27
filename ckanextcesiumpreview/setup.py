@@ -20,6 +20,6 @@ setup(
 	entry_points=\
 	"""
         [ckan.plugins]
-	cesium_viewer=ckanextcesiumpreview.ckanext.cesiumpreview.plugin:CesiumPreview
+	cesium_viewer=ckanext.cesiumpreview.plugin:CesiumPreview
 	""",
 )
