@@ -26,12 +26,6 @@ ckan.module('cesiumpreview', function (jQuery, _) {
                         }]
                     }],
                     "catalogIsUserSupplied": true,
-                    "homeCamera": {
-                        "north": 78,
-                        "east": 113,
-                        "south": -45,
-                        "west": 102,
-                    }
 
                 }
                 ]
@@ -41,10 +35,10 @@ ckan.module('cesiumpreview', function (jQuery, _) {
             if (spatial != '') {
                 extent = geojsonExtent(JSON.parse(spatial)); //[WSEN]
                 if (extent[0] != extent[2]) {
-                    config["initSources"][0]['homeCamera']['west'] = extent[0];
-                    config["initSources"][0]['homeCamera']['south'] = extent[1];
-                    config["initSources"][0]['homeCamera']['east'] = extent[2];
-                    config["initSources"][0]['homeCamera']['north'] = extent[3];
+                    //config["initSources"][0]['homeCamera']['west'] = extent[0];
+                    //config["initSources"][0]['homeCamera']['south'] = extent[1];
+                    //config["initSources"][0]['homeCamera']['east'] = extent[2];
+                    //config["initSources"][0]['homeCamera']['north'] = extent[3];
                 }
             }
 
@@ -68,9 +62,12 @@ ckan.module('cesiumpreview', function (jQuery, _) {
             }
             var encoded_config = encodeURIComponent(JSON.stringify(config));
             var style = 'height: 600px; width: 100%; border: none;';
-            var display = 'allowFullScreen mozAllowFullScreen webkitAllowFullScreen';
-
-            var html = '<iframe src="' + vis_server + '#clean&start=' + encoded_config + '" style="' + style + '" ' + display + '></iframe>';
+            var display = 'allowFullScreen="true" mozAllowFullScreen="true" webkitAllowFullScreen="true"';
+            //N.B. add "clean" to have a viewer only for this dataset - we removed this
+            var url = vis_server + '#map=2d&start=' + encoded_config;
+            //Rewire CKAN fullscreen button
+            $("div.actions:last > a[target|='_blank']").attr('href', url);
+            var html = '<iframe src="' + url + '" style="' + style + '" ' + display + '></iframe>';
 
             console.log(html);
 
