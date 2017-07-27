@@ -8,6 +8,5 @@ ckanext_cesiumpreview.egg-info/PKG-INFO
 ckanext_cesiumpreview.egg-info/SOURCES.txt
 ckanext_cesiumpreview.egg-info/dependency_links.txt
 ckanext_cesiumpreview.egg-info/entry_points.txt
-ckanext_cesiumpreview.egg-info/namespace_packages.txt
 ckanext_cesiumpreview.egg-info/not-zip-safe
 ckanext_cesiumpreview.egg-info/top_level.txt

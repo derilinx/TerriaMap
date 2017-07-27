@@ -16,12 +16,11 @@ class CesiumPreview(p.SingletonPlugin):
     '''This extension adds Cesium. '''
     p.implements(p.IConfigurer, inherit=True)
     p.implements(p.IConfigurable, inherit=True)
-    if p.toolkit.check_ckan_version('2.3'):
-        p.implements(p.IResourceView, inherit=True)
-    else:
-    	p.implements(p.IResourcePreview, inherit=True)
+    p.implements(p.IResourceView, inherit=True)
 
-    Cesium_Formats = ['wms','wfs','kml', 'kmz','gjson', 'geojson', 'czml']
+    Cesium_Formats = ['wms','wfs']
+    #For now we only want to use this as a web service viewer 
+    #,'kml', 'kmz','gjson', 'geojson', 'czml']
     proxy_is_enabled = False
 
     def update_config(self, config):
@@ -48,7 +47,7 @@ class CesiumPreview(p.SingletonPlugin):
                         'quality': 2}
         return {'can_preview': False}
 
-    def info(self): return {'name': 'cesium_view', 'title': 'National Map Beta', 'always_available': True, 'default_title': 'National Map Beta', 'icon': 'globe' }
+    def info(self): return {'name': 'cesium_view', 'title': 'Geospatial Data Explorer', 'always_available': False, 'default_description': 'Explore this and other data in the Geospatial Data Explorer (TerriaJS)', 'default_title': 'Geospatial Data Explorer', 'icon': 'globe', 'iframed': False }
 
     def can_view(self, data_dict):
         resource = data_dict['resource']
