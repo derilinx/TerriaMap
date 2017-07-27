@@ -1,10 +1,14 @@
 {
   "homeCamera": {
-    "north": 78,
-    "east": 113,
-    "south": -45,
-    "west": 102
-  },
+    "lookAt": {
+        "targetLongitude": 104.9,
+        "targetLatitude": 11.5,
+        "targetHeight": 0,
+        "heading": 0,
+        "pitch": 90,
+        "range": 500000
+    }
+},
   "catalog": [
     {
       "name": "OpenDevelopment WMS",
