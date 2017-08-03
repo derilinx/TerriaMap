@@ -1,38 +1,19 @@
 {
   "homeCamera": {
-    "north": 78,
-    "east": 113,
-    "south": -45,
-    "west": 102,
-  },
+    "lookAt": {
+        "targetLongitude": 104.9,
+        "targetLatitude": 11.5,
+        "targetHeight": 0,
+        "heading": 0,
+        "pitch": 90,
+        "range": 500000
+    }
+},
   "catalog": [
-
     {
-      "name": "OpenDevelopment CKAN",
-      "type": "ckan",
-      "url": "http://172.104.153.179",
-      "includeGeoJson": true,
-      "includeKml": true,
-      "includeCsv": true,
-      "includeWms": true,
-      "includeWfs": true,
-      "preserveOrder": true,
-      "filterQuery": [''],
-      "isOpen": true,
-      "useResourceName": false,
-      "groupBy": "organization"
-
-    },
-//    {
-//            "name": "DGI",
-//      "type": "ckan",
-//      "url": "https://data.gov.ie",
-//      "includeGeoJson": true,
-//      "includeKml": true,
-//      "includeCsv": true,
-//      "preserveOrder": true,
-//      "filterQuery": ['']
-//    },
-
+      "name": "OpenDevelopment WMS",
+      "type": "wms-getCapabilities",
+      "url": "http://172.104.153.179:8085/geoserver/wms"
+    }
   ]
 }
