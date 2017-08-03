@@ -5,7 +5,7 @@ ckan.module('cesiumpreview', function (jQuery, _) {
             var self = this;
 
 //      var vis_server = 'http://localhost';  //local
-            var vis_server = 'http://172.104.153.179:3001/';
+            var vis_server = 'http://172.104.153.179/terria/';
 
             var config = {
                 "version": "0.0.03",
