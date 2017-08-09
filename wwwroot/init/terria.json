@@ -13,7 +13,13 @@
     {
       "name": "OpenDevelopment WMS",
       "type": "wms-getCapabilities",
-      "url": "http://172.104.153.179:8085/geoserver/wms"
+      "url": "http://172.104.153.179/geoserver/wms"
+    },
+    {
+      "name": "CKAN",
+      "type": "ckan",
+      "url": "http://172.104.153.179",
+      "includeGeoJson": true
     }
   ]
 }

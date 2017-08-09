@@ -4,6 +4,8 @@
         "terria"
     ],
     parameters: {
+        serverConfigUrl: "http://172.104.153.179/terria/devserverconfig.json",
+        proxyableDomainsUrl: "http://172.104.153.179/terria/devserverconfig.json",
         bingMapsKey: "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
         googleUrlShortenerKey: null,
         googleAnalyticsKey: null,
