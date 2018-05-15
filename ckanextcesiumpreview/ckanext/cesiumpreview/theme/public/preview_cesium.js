@@ -22,6 +22,7 @@ ckan.module('cesiumpreview', function (jQuery, _) {
                             "isUserSupplied": true,
                             "isOpen": true,
                             "isEnabled": true,
+                            "zoomOnEnable": true,
                             "url": "http://"
                         }]
                     }],
