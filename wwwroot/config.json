@@ -1,7 +1,7 @@
 {
     /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
     initializationUrls: [
-        "terria"
+        "http://172.104.153.179/terria/init/terria.json"
     ],
     parameters: {
         serverConfigUrl: "http://172.104.153.179/terria/devserverconfig.json",

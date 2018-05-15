@@ -3,7 +3,7 @@
 /*global require,window */
 
 var terriaOptions = {
-    baseUrl: 'build/TerriaJS'
+    baseUrl: 'http://172.104.153.179/terria/build/TerriaJS'
 };
 var configuration = {
     bingMapsKey: undefined, // use Cesium key
@@ -71,7 +71,7 @@ terria.start({
     // If you don't want the user to be able to control catalog loading via the URL, remove the applicationUrl property below
     // as well as the call to "updateApplicationOnHashChange" further down.
     applicationUrl: window.location,
-    configUrl: 'config.json',
+    configUrl: 'http://172.104.153.179/terria/config.json',
     shareDataService: new ShareDataService({
         terria: terria
     })
