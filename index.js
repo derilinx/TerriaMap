@@ -3,7 +3,7 @@
 /*global require,window */
 
 var terriaOptions = {
-    baseUrl: 'http://172.104.153.179/terria/build/TerriaJS'
+    baseUrl: 'build/TerriaJS'
 };
 
 // checkBrowserCompatibility('ui');
@@ -57,7 +57,7 @@ terria.start({
     // If you don't want the user to be able to control catalog loading via the URL, remove the applicationUrl property below
     // as well as the call to "updateApplicationOnHashChange" further down.
     applicationUrl: window.location,
-    configUrl: 'http://172.104.153.179/terria/config.json',
+    configUrl: 'config.json',
     shareDataService: new ShareDataService({
         terria: terria
     })
