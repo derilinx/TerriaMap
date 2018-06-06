@@ -1,8 +1,8 @@
 {
   "homeCamera": {
     "lookAt": {
-        "targetLongitude": 104.9,
-        "targetLatitude": 11.5,
+        "targetLongitude": 98.0,
+        "targetLatitude": 22.0,
         "targetHeight": 0,
         "heading": 0,
         "pitch": 90,
@@ -13,15 +13,17 @@
     {
       "name": "OpenDevelopment WMS",
       "type": "wms-getCapabilities",
-      "url": "http://172.104.153.179/geoserver/wms",
+      "url": "/geoserver/ows?SERVICE=WMS&",
       "zoomOnEnable": true
     },
     {
       "name": "CKAN",
       "type": "ckan",
-      "url": "http://172.104.153.179",
+      "url": "/",
       "includeGeoJson": true,
-      "zoomOnEnable": true
+      "zoomOnEnable": true,
+      "filterQuery": [{ "fq": "res_format:wms" }]
+	
     }
   ]
 }
