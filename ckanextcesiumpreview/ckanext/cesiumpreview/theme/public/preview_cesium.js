@@ -4,8 +4,7 @@ ckan.module('cesiumpreview', function (jQuery, _) {
         initialize: function () {
             var self = this;
 
-//      var vis_server = 'http://localhost';  //local
-            var vis_server = 'http://172.104.153.179/terria/';
+            var vis_server = '/terriamap/';
 
             var config = {
                 "version": "0.0.03",
