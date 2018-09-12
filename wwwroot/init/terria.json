@@ -6,12 +6,12 @@
         "targetHeight": 0,
         "heading": 0,
         "pitch": 90,
-        "range": 500000
+        "range": 1000000
     }
 },
   "catalog": [
     {
-      "name": "OpenDevelopment WMS",
+      "name": "Map Layers",
       "type": "wms-getCapabilities",
       "url": "/geoserver/ows?SERVICE=WMS&",
       "zoomOnEnable": true
