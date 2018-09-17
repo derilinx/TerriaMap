@@ -1,12 +1,14 @@
 import ReactDOM from 'react-dom';
 import RedBox from 'redbox-react';
 import React from 'react';
+import { LocalizeProvider } from "react-localize-redux";
+
 
 export default function renderUi(terria, allBaseMaps, viewState) {
   let render = () => {
     const UI = require('./UserInterface').default;
-    ReactDOM.render(<UI terria={terria} allBaseMaps={allBaseMaps}
-                        viewState={viewState}/>, document.getElementById('ui'));
+    ReactDOM.render(<LocalizeProvider><UI terria={terria} allBaseMaps={allBaseMaps}
+                        viewState={viewState}/></LocalizeProvider>, document.getElementById('ui'));
   };
 
   if (module.hot && process.env.NODE_ENV !== "production") {

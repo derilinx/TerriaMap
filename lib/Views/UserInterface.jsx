@@ -25,7 +25,7 @@ export default function UserInterface(props) {
     return (
         <StandardUserInterface {... props} version={version}>
             <Menu>
-               
+
             </Menu>
             <Nav>
                 <MeasureTool terria={props.viewState.terria} key="measure-tool"/>

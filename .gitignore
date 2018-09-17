@@ -21,3 +21,7 @@ wwwroot/privateconfig.json
 deploy/packages/
 deploy/work/
 packages/
+#*
+*~
+packages
+*error.log
