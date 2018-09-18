@@ -1,32 +1,62 @@
-{ "SettingPanel" :
 {
-  "Map": [
-    "**Map**",
-    "[[Map]]"
-  ],
-  "MapView": [
-    "**Map View**",
-    "[[Map View]]"
-  ],
-  "3DSmooth": [
-    "**3D Smooth**",
-    "[[3D Smooth]]"
-  ],
-  "BaseMap": [
-    "**Base Map**",
-    "[[Base Map]]"
-  ],
-  "3DTerrain": [
-    "**3D Terrain**",
-    "[[3D Terrain]]"
-  ],
-  "ChangeView": [
-    "**Change View**",
-    "[[Change View]]"
-  ],
-  "2D": [
-    "**2D**",
-    "[[2D]]"
-  ]
-}
+  "SettingPanel": {
+    "2D": [
+      "**2D**",
+      "[[2D]]"
+    ],
+    "ChangeView": [
+      "**Change View**",
+      "[[Change View]]"
+    ],
+    "3DTerrain": [
+      "**3D Terrain**",
+      "[[3D Terrain]]"
+    ],
+    "BaseMap": [
+      "**Base Map**",
+      "[[Base Map]]"
+    ],
+    "3DSmooth": [
+      "**3D Smooth**",
+      "[[3D Smooth]]"
+    ],
+    "MapView": [
+      "**Map View**",
+      "[[Map View]]"
+    ],
+    "Map": [
+      "**Map**",
+      "[[Map]]"
+    ]
+  },
+  "SidePanel": {
+    "SearchForLocations": [
+      "**Search for Locations**",
+      "[[Search for Locations]]"
+    ],
+    "AddData": [
+      "** Add Data** ",
+      "[[Add Data]]"
+    ],
+    "WorkbenchEmpty": [
+      "**Your workbench is empty",
+      "[[Your workbench is empty]]"
+    ],
+    "ClickAdd": [
+      "**Click 'Add data' above to:",
+      "[[Click 'Add data' above to:]]"
+    ],
+    "BrowseData": [
+      "**Browse the Data Catalogue",
+      "[[Browse the Data Catalogue]]"
+    ],
+    "LoadData": [
+      "**Load your own data onto the map",
+      "[[Load your own data onto the map]]"
+    ],
+    "TipActive": [
+      "**<strong>TIP:<\/strong> <em>All your active data sets will be listed here<\/em>",
+      "[[<strong>TIP:<\/strong> <em>All your active data sets will be listed here<\/em>]]"
+    ]
+  }
 }
