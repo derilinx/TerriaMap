@@ -182,5 +182,41 @@
       "**Sending",
       "[[Sending]]"
     ]
+  },
+  "LocationBar": {
+    "Lat": [
+      "**Lat",
+      "[[Lat]]"
+    ],
+    "Lon": [
+      "**Lon",
+      "[[Lon]]"
+    ],
+    "Zone": [
+      "**Zone",
+      "[[Zone]]"
+    ],
+    "E": [
+      "**E",
+      "[[E]]"
+    ],
+    "N": [
+      "**N",
+      "[[N]]"
+    ],
+    "Elev": [
+      "**Elev",
+      "[[Elev]]"
+    ]
+  },
+  "DistanceLegend": {
+    "M": [
+      "**M",
+      "[[M]]"
+    ],
+    "KM": [
+      "**KM",
+      "[[KM]]"
+    ]
   }
 }
