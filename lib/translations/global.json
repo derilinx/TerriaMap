@@ -218,5 +218,85 @@
       "**KM",
       "[[KM]]"
     ]
+  },
+  "Workbench": {
+    "DataSets": [
+      "**Data Sets",
+      "[[Data Sets]]"
+    ],
+    "RemoveAll": [
+      "**Remove All",
+      "[[Remove All]]"
+    ]
+  },
+  "ViewingControls": {
+    "ZoomExtent": [
+      "**Zoom to Extent",
+      "[[Zoom to Extent]]"
+    ],
+    "ZoomData": [
+      "**Zoom to Data",
+      "[[Zoom to Data]]"
+    ],
+    "ZoomTo": [
+      "**Zoom to",
+      "[[Zoom to]]"
+    ],
+    "AboutData": [
+      "**About This Data",
+      "[[About This Data]]"
+    ],
+    "Info": [
+      "**info",
+      "[[info]]"
+    ],
+    "DuplicateSplit": [
+      "**Duplicate and show splitter",
+      "[[Duplicate and show splitter]]"
+    ],
+    "Split": [
+      "**Split",
+      "[[Split]]"
+    ],
+    "RemoveData": [
+      "**Remove This Data",
+      "[[Remove This Data]]"
+    ],
+    "Remove": [
+      "**Remove",
+      "[[Remove]]"
+    ]
+  },
+  "OpacitySection": {
+    "Opacity": [
+      "**Opacity:",
+      "[[Opacity:]]"
+    ]
+  },
+  "LeftRightSection": {
+    "Left": [
+      "**Left",
+      "[[Left]]"
+    ],
+    "Right": [
+      "**Right",
+      "[[Right]]"
+    ],
+    "Both": [
+      "**Both",
+      "[[Both]]"
+    ],
+    "ShowLeft": [
+      "**Show on the left side",
+      "[[Show on the left side]]"
+    ],
+    "ShowRight": [
+      "**Show on the right side",
+      "[[Show on the right side]]"
+    ],
+    "ShowBoth": [
+      "**Show on both sides",
+      "[[Show on both sides]]"
+    ]
   }
 }
