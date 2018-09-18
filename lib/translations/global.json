@@ -346,5 +346,15 @@
       "**Download this Table",
       "[[Download this Table]]"
     ]
+  },
+  "LocalizePanel": {
+    "Localization": [
+      "**Localization",
+      "[[Localization]]"
+    ],
+    "Language": [
+      "**Language",
+      "[[Language]]"
+    ]
   }
 }
