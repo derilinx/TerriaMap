@@ -54,9 +54,77 @@
       "**Load your own data onto the map",
       "[[Load your own data onto the map]]"
     ],
-    "TipActive": [
-      "**<strong>TIP:<\/strong> <em>All your active data sets will be listed here<\/em>",
-      "[[<strong>TIP:<\/strong> <em>All your active data sets will be listed here<\/em>]]"
+    "Tip": [
+      "**TIP:",
+      "[[TIP:]]"
+    ],
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here",
+      "[[All your active data sets will be listed here]]"
+    ]
+  },
+  "SharePanel": {
+    "Share": [
+      "**Share**",
+      "[[Share]]"
+    ],
+    "ShareYourMap": [
+      "**Share your map with others**",
+      "[[Share your map with others]]"
+    ],
+    "PrintMap": [
+      "**Print Map",
+      "[[Print Map]]"
+    ],
+    "Print": [
+      "**Print",
+      "[[Print]]"
+    ],
+    "ShowPrintView": [
+      "**Show Print View",
+      "[[Show Print View]]"
+    ],
+    "OpenPrint": [
+      "**Open a printable version of this map.",
+      "[[Open a printable version of this map.]]"
+    ],
+    "CreatingPrintView": [
+      "**Creating print view...",
+      "[[Creating print view...]]"
+    ],
+    "AdvancedOptions": [
+      "**Advanced Options",
+      "[[Advanced Options]]"
+    ],
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:",
+      "[[To embed, copy this code to embed this map into an HTML page:]]"
+    ],
+    "Shorten": [
+      "**Shorten the share URL using a web service",
+      "[[Shorten the share URL using a web service]]"
+    ]
+  },
+  "Clipboard": {
+    "Copied": [
+      "**copied!",
+      "[[copied!]]"
+    ],
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!",
+      "[[copy unsuccessful!]]"
+    ],
+    "ShareUrl": [
+      "**Share URL",
+      "[[Share URL]]"
+    ],
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.",
+      "[[Anyone visiting this URL will see this map view.]]"
+    ],
+    "Copy": [
+      "Copy",
+      "[[Copy]]"
     ]
   }
 }
