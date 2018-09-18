@@ -6,6 +6,8 @@ import React from 'react';
 import RelatedMaps from './RelatedMaps';
 import SplitPoint from 'terriajs/lib/ReactViews/SplitPoint';
 import StandardUserInterface from 'terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx';
+
+import { withLocalize } from "react-localize-redux";
 import version from '../../version';
 
 import './global.scss';
@@ -21,7 +23,7 @@ function isBrowserSupportedAV() {
     return /Android|iPhone|iPad/i.test(navigator.userAgent);
 }
 
-export default function UserInterface(props) {
+function UserInterface(props) {
     return (
         <StandardUserInterface {... props} version={version}>
             <Menu>
@@ -38,6 +40,8 @@ export default function UserInterface(props) {
         </StandardUserInterface>
     );
 }
+
+export default withLocalize(UserInterface)
 
 UserInterface.propTypes = {
     terria: PropTypes.object,

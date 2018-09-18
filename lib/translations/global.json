@@ -1,0 +1,32 @@
+{ "SettingPanel" :
+{
+  "Map": [
+    "**Map**",
+    "[[Map]]"
+  ],
+  "MapView": [
+    "**Map View**",
+    "[[Map View]]"
+  ],
+  "3DSmooth": [
+    "**3D Smooth**",
+    "[[3D Smooth]]"
+  ],
+  "BaseMap": [
+    "**Base Map**",
+    "[[Base Map]]"
+  ],
+  "3DTerrain": [
+    "**3D Terrain**",
+    "[[3D Terrain]]"
+  ],
+  "ChangeView": [
+    "**Change View**",
+    "[[Change View]]"
+  ],
+  "2D": [
+    "**2D**",
+    "[[2D]]"
+  ]
+}
+}

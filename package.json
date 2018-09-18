@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "grunt": "^1.0.3",
+    "react-localize-redux": "^3.4.0",
+    "redux": "^4.0.0",
     "terriajs-server": "^2.7.0"
   },
   "config": {
