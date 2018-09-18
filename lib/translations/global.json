@@ -123,8 +123,64 @@
       "[[Anyone visiting this URL will see this map view.]]"
     ],
     "Copy": [
-      "Copy",
+      "**Copy",
       "[[Copy]]"
+    ]
+  },
+  "FeedbackButton": {
+    "GiveFeedback": [
+      "**Give feedback",
+      "[[Give feedback]]"
+    ]
+  },
+  "FeedbackForm": {
+    "Preamble": [
+      "**We would love to hear from you!",
+      "[[We would love to hear from you!]]"
+    ],
+    "Feedback": [
+      "**Feedback",
+      "[[Feedback]]"
+    ],
+    "YourName": [
+      "**Your name (optional)",
+      "[[Your name (optional)]]"
+    ],
+    "EmailAddress": [
+      "**Email address (optional)",
+      "[[Email address (optional)]]"
+    ],
+    "FollowUp": [
+      "**We can't follow up without it!",
+      "[[We can't follow up without it!]]"
+    ],
+    "CommentOrQuestion": [
+      "**Comment or question",
+      "[[Comment or question]]"
+    ],
+    "ShareMyView": [
+      "**Share my map view with",
+      "[[Share my map view with]]"
+    ],
+    "Developers": [
+      "**developers",
+      "[[developers]]"
+    ],
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing",
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]"
+    ],
+    "Cancel": [
+      "**Cancel",
+      "[[Cancel]]"
+    ],
+    "Send": [
+      "**Send",
+      "[[Send]]"
+    ],
+    "Sending": [
+      "**Sending",
+      "[[Sending]]"
     ]
   }
 }
