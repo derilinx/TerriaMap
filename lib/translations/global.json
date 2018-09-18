@@ -298,5 +298,53 @@
       "**Show on both sides",
       "[[Show on both sides]]"
     ]
+  },
+  "FeatureInfoPanel": {
+    "FeatureInformation": [
+      "**Feature Information",
+      "[[Feature Information]]"
+    ],
+    "CloseDataPanel": [
+      "**Close data panel",
+      "[[Close data panel]]"
+    ],
+    "LearnMore": [
+      "**Click on the map to learn more about a location",
+      "[[Click on the map to learn more about a location]]"
+    ],
+    "AddData": [
+      "**Click 'Add Data' to add data to the map.",
+      "[[Click 'Add Data' to add data to the map.]]"
+    ],
+    "NoData": [
+      "**No data is available here - try another location.",
+      "[[No data is available here - try another location.]]"
+    ],
+    "LatLon": [
+      "**Lat \/ Lon",
+      "[[Lat \/ Lon]]"
+    ],
+    "N": [
+      "**N",
+      "[[N]]"
+    ],
+    "E": [
+      "**E",
+      "[[E]]"
+    ],
+    "W": [
+      "**W",
+      "[[W]]"
+    ],
+    "S": [
+      "**S",
+      "[[S]]"
+    ]
+  },
+  "FeatureInfoDownload": {
+    "DownloadTable": [
+      "**Download this Table",
+      "[[Download this Table]]"
+    ]
   }
 }
