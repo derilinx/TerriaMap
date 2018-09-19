@@ -1,360 +1,5957 @@
 {
-  "SettingPanel": {
-    "2D": [
-      "**2D**",
-      "[[2D]]"
-    ],
-    "ChangeView": [
-      "**Change View**",
-      "[[Change View]]"
-    ],
-    "3DTerrain": [
-      "**3D Terrain**",
-      "[[3D Terrain]]"
-    ],
-    "BaseMap": [
-      "**Base Map**",
-      "[[Base Map]]"
-    ],
-    "3DSmooth": [
-      "**3D Smooth**",
-      "[[3D Smooth]]"
-    ],
-    "MapView": [
-      "**Map View**",
-      "[[Map View]]"
-    ],
-    "Map": [
-      "**Map**",
-      "[[Map]]"
-    ]
-  },
-  "SidePanel": {
-    "SearchForLocations": [
-      "**Search for Locations**",
-      "[[Search for Locations]]"
-    ],
-    "AddData": [
-      "** Add Data** ",
-      "[[Add Data]]"
-    ],
-    "WorkbenchEmpty": [
-      "**Your workbench is empty",
-      "[[Your workbench is empty]]"
-    ],
-    "ClickAdd": [
-      "**Click 'Add data' above to:",
-      "[[Click 'Add data' above to:]]"
-    ],
-    "BrowseData": [
-      "**Browse the Data Catalogue",
-      "[[Browse the Data Catalogue]]"
-    ],
-    "LoadData": [
-      "**Load your own data onto the map",
-      "[[Load your own data onto the map]]"
-    ],
-    "Tip": [
-      "**TIP:",
-      "[[TIP:]]"
-    ],
-    "ActiveDataSets": [
-      "**All your active data sets will be listed here",
-      "[[All your active data sets will be listed here]]"
-    ]
-  },
-  "SharePanel": {
-    "Share": [
-      "**Share**",
-      "[[Share]]"
-    ],
-    "ShareYourMap": [
-      "**Share your map with others**",
-      "[[Share your map with others]]"
-    ],
-    "PrintMap": [
-      "**Print Map",
-      "[[Print Map]]"
-    ],
-    "Print": [
-      "**Print",
-      "[[Print]]"
-    ],
-    "ShowPrintView": [
-      "**Show Print View",
-      "[[Show Print View]]"
-    ],
-    "OpenPrint": [
-      "**Open a printable version of this map.",
-      "[[Open a printable version of this map.]]"
-    ],
-    "CreatingPrintView": [
-      "**Creating print view...",
-      "[[Creating print view...]]"
-    ],
-    "AdvancedOptions": [
-      "**Advanced Options",
-      "[[Advanced Options]]"
-    ],
-    "Embed": [
-      "**To embed, copy this code to embed this map into an HTML page:",
-      "[[To embed, copy this code to embed this map into an HTML page:]]"
-    ],
-    "Shorten": [
-      "**Shorten the share URL using a web service",
-      "[[Shorten the share URL using a web service]]"
-    ]
-  },
-  "Clipboard": {
-    "Copied": [
-      "**copied!",
-      "[[copied!]]"
-    ],
-    "CopyUnsuccessful": [
-      "**copy unsuccessful!",
-      "[[copy unsuccessful!]]"
-    ],
-    "ShareUrl": [
-      "**Share URL",
-      "[[Share URL]]"
-    ],
-    "VisitingUrl": [
-      "**Anyone visiting this URL will see this map view.",
-      "[[Anyone visiting this URL will see this map view.]]"
-    ],
-    "Copy": [
-      "**Copy",
-      "[[Copy]]"
-    ]
-  },
-  "FeedbackButton": {
-    "GiveFeedback": [
-      "**Give feedback",
-      "[[Give feedback]]"
-    ]
-  },
-  "FeedbackForm": {
-    "Preamble": [
-      "**We would love to hear from you!",
-      "[[We would love to hear from you!]]"
-    ],
-    "Feedback": [
-      "**Feedback",
-      "[[Feedback]]"
-    ],
-    "YourName": [
-      "**Your name (optional)",
-      "[[Your name (optional)]]"
-    ],
-    "EmailAddress": [
-      "**Email address (optional)",
-      "[[Email address (optional)]]"
-    ],
-    "FollowUp": [
-      "**We can't follow up without it!",
-      "[[We can't follow up without it!]]"
-    ],
-    "CommentOrQuestion": [
-      "**Comment or question",
-      "[[Comment or question]]"
-    ],
-    "ShareMyView": [
-      "**Share my map view with",
-      "[[Share my map view with]]"
-    ],
-    "Developers": [
-      "**developers",
-      "[[developers]]"
-    ],
-    "Troubleshoot": [
-      "**This helps us to troubleshoot issues by letting us see what you're seeing",
-      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]"
-    ],
-    "Cancel": [
-      "**Cancel",
-      "[[Cancel]]"
-    ],
-    "Send": [
-      "**Send",
-      "[[Send]]"
-    ],
-    "Sending": [
-      "**Sending",
-      "[[Sending]]"
-    ]
-  },
-  "LocationBar": {
-    "Lat": [
-      "**Lat",
-      "[[Lat]]"
-    ],
-    "Lon": [
-      "**Lon",
-      "[[Lon]]"
-    ],
-    "Zone": [
-      "**Zone",
-      "[[Zone]]"
-    ],
-    "E": [
-      "**E",
-      "[[E]]"
-    ],
-    "N": [
-      "**N",
-      "[[N]]"
-    ],
-    "Elev": [
-      "**Elev",
-      "[[Elev]]"
-    ]
-  },
-  "DistanceLegend": {
-    "M": [
-      "**M",
-      "[[M]]"
-    ],
-    "KM": [
-      "**KM",
-      "[[KM]]"
-    ]
-  },
-  "Workbench": {
-    "DataSets": [
-      "**Data Sets",
-      "[[Data Sets]]"
-    ],
-    "RemoveAll": [
-      "**Remove All",
-      "[[Remove All]]"
-    ]
-  },
-  "ViewingControls": {
-    "ZoomExtent": [
-      "**Zoom to Extent",
-      "[[Zoom to Extent]]"
-    ],
-    "ZoomData": [
-      "**Zoom to Data",
-      "[[Zoom to Data]]"
-    ],
-    "ZoomTo": [
-      "**Zoom to",
-      "[[Zoom to]]"
-    ],
-    "AboutData": [
-      "**About This Data",
-      "[[About This Data]]"
-    ],
-    "Info": [
-      "**info",
-      "[[info]]"
-    ],
-    "DuplicateSplit": [
-      "**Duplicate and show splitter",
-      "[[Duplicate and show splitter]]"
-    ],
-    "Split": [
-      "**Split",
-      "[[Split]]"
-    ],
-    "RemoveData": [
-      "**Remove This Data",
-      "[[Remove This Data]]"
-    ],
-    "Remove": [
-      "**Remove",
-      "[[Remove]]"
-    ]
-  },
-  "OpacitySection": {
-    "Opacity": [
-      "**Opacity:",
-      "[[Opacity:]]"
-    ]
-  },
-  "LeftRightSection": {
-    "Left": [
-      "**Left",
-      "[[Left]]"
-    ],
-    "Right": [
-      "**Right",
-      "[[Right]]"
-    ],
-    "Both": [
-      "**Both",
-      "[[Both]]"
-    ],
-    "ShowLeft": [
-      "**Show on the left side",
-      "[[Show on the left side]]"
-    ],
-    "ShowRight": [
-      "**Show on the right side",
-      "[[Show on the right side]]"
-    ],
-    "ShowBoth": [
-      "**Show on both sides",
-      "[[Show on both sides]]"
-    ]
-  },
-  "FeatureInfoPanel": {
-    "FeatureInformation": [
-      "**Feature Information",
-      "[[Feature Information]]"
-    ],
-    "CloseDataPanel": [
-      "**Close data panel",
-      "[[Close data panel]]"
-    ],
-    "LearnMore": [
-      "**Click on the map to learn more about a location",
-      "[[Click on the map to learn more about a location]]"
-    ],
-    "AddData": [
-      "**Click 'Add Data' to add data to the map.",
-      "[[Click 'Add Data' to add data to the map.]]"
-    ],
-    "NoData": [
-      "**No data is available here - try another location.",
-      "[[No data is available here - try another location.]]"
-    ],
-    "LatLon": [
-      "**Lat \/ Lon",
-      "[[Lat \/ Lon]]"
-    ],
-    "N": [
-      "**N",
-      "[[N]]"
-    ],
-    "E": [
-      "**E",
-      "[[E]]"
-    ],
-    "W": [
-      "**W",
-      "[[W]]"
-    ],
-    "S": [
-      "**S",
-      "[[S]]"
-    ]
-  },
   "FeatureInfoDownload": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
     "DownloadTable": [
-      "**Download this Table",
-      "[[Download this Table]]"
-    ]
-  },
-  "LocalizePanel": {
-    "Localization": [
-      "**Localization",
-      "[[Localization]]"
-    ],
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
     "Language": [
-      "**Language",
-      "[[Language]]"
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "Workbench": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "FeedbackForm": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "LeftRightSection": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "SharePanel": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "ViewingControls": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "DistanceLegend": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "SettingPanel": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "FeedbackButton": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "Clipboard": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "LocalizePanel": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "SidePanel": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "FeatureInfoPanel": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "OpacitySection": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
+    ]
+  }, 
+  "LocationBar": {
+    "Tip": [
+      "**TIP:", 
+      "[[TIP:]]", 
+      "M\u1eb9o:"
+    ], 
+    "Info": [
+      "**info", 
+      "[[info]]", 
+      "Th\u00f4ng tin"
+    ], 
+    "Elev": [
+      "**Elev", 
+      "[[Elev]]", 
+      "Cao \u0111\u1ed9"
+    ], 
+    "Zone": [
+      "**Zone", 
+      "[[Zone]]", 
+      "V\u00f9ng"
+    ], 
+    "Both": [
+      "**Both", 
+      "[[Both]]", 
+      "C\u1ea3 hai"
+    ], 
+    "OpenPrint": [
+      "**Open a printable version of this map.", 
+      "[[Open a printable version of this map.]]", 
+      "M\u1edf phi\u00ean b\u1ea3n in c\u1ee7a b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Shorten": [
+      "**Shorten the share URL using a web service", 
+      "[[Shorten the share URL using a web service]]", 
+      "S\u1eed d\u1ee5ng d\u1ecbch v\u1ee5 web \u0111\u1ec3 \u0111\u01a1n gi\u1ea3n h\u00f3a vi\u1ec7c chia s\u1ebb URL "
+    ], 
+    "Send": [
+      "**Send", 
+      "[[Send]]", 
+      "G\u1eedi \u0111i"
+    ], 
+    "RemoveAll": [
+      "**Remove All", 
+      "[[Remove All]]", 
+      "Lo\u1ea1i b\u1ecf t\u1ea5t c\u1ea3"
+    ], 
+    "ShowPrintView": [
+      "**Show Print View", 
+      "[[Show Print View]]", 
+      "Hi\u1ec3n th\u1ecb b\u1ea3n in"
+    ], 
+    "LearnMore": [
+      "**Click on the map to learn more about a location", 
+      "[[Click on the map to learn more about a location]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o b\u1ea3n \u0111\u1ed3 th\u1ec3 c\u00f3 nhi\u1ec1u th\u00f4ng tin h\u01a1n v\u1ec1 v\u1ecb tr\u00ed"
+    ], 
+    "Split": [
+      "**Split", 
+      "[[Split]]", 
+      "C\u1eaft"
+    ], 
+    "ShareYourMap": [
+      "**Share your map with others", 
+      "[[Share your map with others]]", 
+      "Chia s\u1ebb b\u1ea3n \u0111\u1ed3 v\u1edbi ng\u01b0\u1eddi kh\u00e1c"
+    ], 
+    "Print": [
+      "**Print", 
+      "[[Print]]", 
+      "In "
+    ], 
+    "CommentOrQuestion": [
+      "**Comment or question", 
+      "[[Comment or question]]", 
+      "\u00dd ki\u1ebfn ho\u1eb7c c\u00e2u h\u1ecfi"
+    ], 
+    "ShowBoth": [
+      "**Show on both sides", 
+      "[[Show on both sides]]", 
+      "Hi\u1ec3n th\u1ecb hai b\u00ean"
+    ], 
+    "Developers": [
+      "**developers", 
+      "[[developers]]", 
+      "Nh\u1eefng ng\u01b0\u1eddi ph\u00e1t tri\u1ec3n"
+    ], 
+    "MapView": [
+      "**Map View", 
+      "[[Map View]]", 
+      "Ki\u1ec3u xem b\u1ea3n \u0111\u1ed3"
+    ], 
+    "GiveFeedback": [
+      "**Give feedback", 
+      "[[Give feedback]]", 
+      "Cung c\u1ea5p ph\u1ea3n h\u1ed3i"
+    ], 
+    "3DSmooth": [
+      "**3D Smooth", 
+      "[[3D Smooth]]", 
+      "L\u00e0m tr\u01a1n 3D"
+    ], 
+    "LatLon": [
+      "**Lat / Lon", 
+      "[[Lat / Lon]]", 
+      "V\u0129 tuy\u1ebfn/kinh tuy\u1ebfn"
+    ], 
+    "DownloadTable": [
+      "**Download this Table", 
+      "[[Download this Table]]", 
+      "T\u1ea3i b\u1ea3ng bi\u1ec3u xu\u1ed1ng"
+    ], 
+    "AdvancedOptions": [
+      "**Advanced Options", 
+      "[[Advanced Options]]", 
+      "Ch\u1ecdn l\u1ef1a n\u00e2ng cao"
+    ], 
+    "WorkbenchEmpty": [
+      "**Your workbench is empty", 
+      "[[Your workbench is empty]]", 
+      "Khu vi\u1ec7c c\u1ee7a b\u1ea1n hi\u1ec7n gi\u1edd \u0111ang tr\u1ed1ng"
+    ], 
+    "ActiveDataSets": [
+      "**All your active data sets will be listed here", 
+      "[[All your active data sets will be listed here]]", 
+      "T\u1ea5t c\u1ea3 b\u1ed9 d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n s\u1ebd \u0111\u01b0\u1ee3c hi\u1ec3n th\u1ecb \u1edf \u0111\u00e2y"
+    ], 
+    "CopyUnsuccessful": [
+      "**copy unsuccessful!", 
+      "[[copy unsuccessful!]]", 
+      "Sao ch\u00e9p kh\u00f4ng th\u00e0nh c\u00f4ng"
+    ], 
+    "ZoomData": [
+      "**Zoom to Data", 
+      "[[Zoom to Data]]", 
+      "M\u1edf c\u1eeda s\u1ed5 xem v\u1ec1 d\u1eef li\u1ec7u"
+    ], 
+    "RemoveData": [
+      "**Remove This Data", 
+      "[[Remove This Data]]", 
+      "Lo\u1ea1i b\u1ecf d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "NoData": [
+      "**No data is available here - try another location.", 
+      "[[No data is available here - try another location.]]", 
+      "Kh\u00f4ng c\u00f3 d\u1eef li\u1ec7u-th\u1eed v\u1ecb tr\u00ed kh\u00e1c"
+    ], 
+    "E": [
+      "**E", 
+      "[[E]]", 
+      "\u0110\u00f4ng"
+    ], 
+    "ClickAdd": [
+      "**Click 'Add data' above to:", 
+      "[[Click 'Add data' above to:]]", 
+      "Nh\u1ea5p chu\u1ed9t v\u00e0o \"Th\u00eam d\u1eef li\u1ec7u\" ph\u00eda tr\u00ean \u0111\u1ec3:"
+    ], 
+    "DuplicateSplit": [
+      "**Duplicate and show splitter", 
+      "[[Duplicate and show splitter]]", 
+      "Nh\u00e2n \u0111\u00f4i v\u00e0 hi\u1ec3n th\u1ecb ph\u1ea7n c\u1eaft"
+    ], 
+    "BrowseData": [
+      "**Browse the Data Catalogue", 
+      "[[Browse the Data Catalogue]]", 
+      "T\u00ecm ki\u1ebfm danh m\u1ee5c d\u1eef li\u1ec7u"
+    ], 
+    "Lat": [
+      "**Lat", 
+      "[[Lat]]", 
+      "V\u0129 tuy\u1ebfn"
+    ], 
+    "Copy": [
+      "**Copy", 
+      "[[Copy]]", 
+      "Sao ch\u00e9p"
+    ], 
+    "Preamble": [
+      "**We would love to hear from you!", 
+      "[[We would love to hear from you!]]", 
+      "Ch\u00fang t\u00f4i mong mu\u1ed1n nghe t\u1eeb b\u1ea1n!"
+    ], 
+    "FollowUp": [
+      "**We can't follow up without it!", 
+      "[[We can't follow up without it!]]", 
+      "Ch\u00fang ta kh\u00f4ng th\u1ec3 ti\u1ebfp t\u1ee5c m\u00e0 kh\u00f4ng c\u00f3 n\u00f3!"
+    ], 
+    "Sending": [
+      "**Sending", 
+      "[[Sending]]", 
+      "\u0110ang g\u1eedi \u0111i"
+    ], 
+    "ZoomTo": [
+      "**Zoom to", 
+      "[[Zoom to]]", 
+      "M\u1edf c\u1eeda s\u1ed1 xem \u0111\u1ebfn"
+    ], 
+    "KM": [
+      "**KM", 
+      "[[KM]]", 
+      "Kilomet"
+    ], 
+    "Language": [
+      "**Language", 
+      "[[Language]]", 
+      "Ng\u00f4n ng\u1eef"
+    ], 
+    "Map": [
+      "**Map", 
+      "[[Map]]", 
+      "B\u1ea3n \u0111\u1ed3"
+    ], 
+    "ShareUrl": [
+      "**Share URL", 
+      "[[Share URL]]", 
+      "Chia s\u1ebb URL"
+    ], 
+    "Troubleshoot": [
+      "**This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "[[This helps us to troubleshoot issues by letting us see what you're seeing]]", 
+      "H\u00e3y cho ch\u00fang t\u00f4i bi\u1ebft \u0111i\u1ec1u b\u1ea1n \u0111ang th\u1ea5y \u0111\u1ec3 c\u00f3 th\u1ec3 gi\u1ea3i quy\u1ebft v\u1ea5n \u0111\u1ec1 "
+    ], 
+    "M": [
+      "**M", 
+      "[[M]]", 
+      "M\u00e9t"
+    ], 
+    "Remove": [
+      "**Remove", 
+      "[[Remove]]", 
+      "Lo\u1ea1i b\u1ecf"
+    ], 
+    "ShareMyView": [
+      "**Share my map view with", 
+      "[[Share my map view with]]", 
+      "Chia s\u1ebb h\u00ecnh \u1ea3nh b\u1ea3n \u0111\u1ed3 c\u1ee7a t\u00f4i v\u1edbi"
+    ], 
+    "2D": [
+      "**2D", 
+      "[[2D]]", 
+      "2D"
+    ], 
+    "Cancel": [
+      "**Cancel", 
+      "[[Cancel]]", 
+      "H\u1ee7y"
+    ], 
+    "ShowRight": [
+      "**Show on the right side", 
+      "[[Show on the right side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean ph\u1ea3i"
+    ], 
+    "Right": [
+      "**Right", 
+      "[[Right]]", 
+      "B\u00ean ph\u1ea3i"
+    ], 
+    "ShowLeft": [
+      "**Show on the left side", 
+      "[[Show on the left side]]", 
+      "Hi\u1ec3n th\u1ecb b\u00ean tr\u00e1i"
+    ], 
+    "AddData": [
+      "**Add Data", 
+      "[[Add Data]]", 
+      "Th\u00eam d\u1eef li\u1ec7u"
+    ], 
+    "W": [
+      "**W", 
+      "[[W]]", 
+      "T\u00e2y"
+    ], 
+    "SearchForLocations": [
+      "**Search for Locations", 
+      "[[Search for Locations]]", 
+      "T\u00ecm ki\u1ebfm c\u00e1c v\u1ecb tr\u00ed"
+    ], 
+    "Embed": [
+      "**To embed, copy this code to embed this map into an HTML page:", 
+      "[[To embed, copy this code to embed this map into an HTML page:]]", 
+      "Sao ch\u00e9p \u0111o\u1ea1n m\u00e3 n\u00e0y \u0111\u1ec3 \u0111\u00ednh k\u00e8m b\u1ea3n \u0111\u1ed3 v\u00e0o trang HTML"
+    ], 
+    "N": [
+      "**N", 
+      "[[N]]", 
+      "B\u1eafc"
+    ], 
+    "3DTerrain": [
+      "**3D Terrain", 
+      "[[3D Terrain]]", 
+      "\u0110\u1ecba h\u00ecnh 3D"
+    ], 
+    "Copied": [
+      "**copied!", 
+      "[[copied!]]", 
+      "\u0110\u00e3 sao ch\u00e9p!"
+    ], 
+    "Left": [
+      "**Left", 
+      "[[Left]]", 
+      "Tr\u00e1i"
+    ], 
+    "Opacity": [
+      "**Opacity:", 
+      "[[Opacity:]]", 
+      "T\u00ednh tr\u1ed9n:"
+    ], 
+    "CloseDataPanel": [
+      "**Close data panel", 
+      "[[Close data panel]]", 
+      "\u0110\u00f3ng c\u1eeda s\u1ed5 qu\u1ea3n l\u00fd d\u1eef li\u1ec7u"
+    ], 
+    "FeatureInformation": [
+      "**Feature Information", 
+      "[[Feature Information]]", 
+      "Th\u00f4ng tin thu\u1ed9c t\u00ednh"
+    ], 
+    "DataSets": [
+      "**Data Sets", 
+      "[[Data Sets]]", 
+      "B\u1ed9 d\u1eef li\u1ec7u"
+    ], 
+    "CreatingPrintView": [
+      "**Creating print view...", 
+      "[[Creating print view...]]", 
+      "T\u1ea1o phi\u00ean b\u1ea3n in"
+    ], 
+    "Feedback": [
+      "**Feedback", 
+      "[[Feedback]]", 
+      "Ph\u1ea3n h\u1ed3i"
+    ], 
+    "VisitingUrl": [
+      "**Anyone visiting this URL will see this map view.", 
+      "[[Anyone visiting this URL will see this map view.]]", 
+      "B\u1ea5t c\u1ee9 ai xem \u0111\u01b0\u1eddng d\u1eabn URL n\u00e0y s\u1ebd th\u1ea5y b\u1ea3n \u0111\u1ed3 n\u00e0y"
+    ], 
+    "Localization": [
+      "**Localization", 
+      "[[Localization]]", 
+      "V\u1ecb tr\u00ed h\u00f3a"
+    ], 
+    "Share": [
+      "**Share", 
+      "[[Share]]", 
+      "Chia s\u1ebb "
+    ], 
+    "S": [
+      "**S", 
+      "[[S]]", 
+      "Nam"
+    ], 
+    "AboutData": [
+      "**About This Data", 
+      "[[About This Data]]", 
+      "Th\u00f4ng tin v\u1ec1 d\u1eef li\u1ec7u n\u00e0y"
+    ], 
+    "EmailAddress": [
+      "**Email address (optional)", 
+      "[[Email address (optional)]]", 
+      "\u0110\u1ecba ch\u1ec9 e-mail (b\u1ed5 sung)"
+    ], 
+    "PrintMap": [
+      "**Print Map", 
+      "[[Print Map]]", 
+      "In b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ChangeView": [
+      "**Change View", 
+      "[[Change View]]", 
+      "Ki\u1ec3u xem thay \u0111\u1ed5i"
+    ], 
+    "YourName": [
+      "**Your name (optional)", 
+      "[[Your name (optional)]]", 
+      "T\u00ean c\u1ee7a b\u1ea1n (b\u1ed5 sung)"
+    ], 
+    "LoadData": [
+      "**Load your own data onto the map", 
+      "[[Load your own data onto the map]]", 
+      "\u0110\u01b0a d\u1eef li\u1ec7u c\u1ee7a b\u1ea1n v\u00e0o b\u1ea3n \u0111\u1ed3"
+    ], 
+    "ZoomExtent": [
+      "**Zoom to Extent", 
+      "[[Zoom to Extent]]", 
+      "M\u1edf r\u1ed9ng c\u1eeda s\u1ed5 xem t\u1edbi bi\u00ean t\u1ecda \u0111\u1ed9"
+    ], 
+    "BaseMap": [
+      "**Base Map", 
+      "[[Base Map]]", 
+      "B\u1ea3n \u0111\u1ed3 n\u1ec1n"
+    ], 
+    "Lon": [
+      "**Lon", 
+      "[[Lon]]", 
+      "Kinh tuy\u1ebfn"
     ]
   }
 }
