@@ -1,6 +1,22 @@
 [
-    {"name": "English", "code": "en_US"},
-    {"name": "Burmese", "code": "my"}
-    {"name": "Vietnamese", "code": "vm"}
+  {
+    "name": "English",
+    "code": "en_US"
+  },
+  {
+    "name": "Thai",
+    "code": "th"
+  },
+  {
+    "name": "Vietnamese",
+    "code": "vm"
+  },
+  {
+    "name": "Burmese",
+    "code": "my"
+  },
+  {
+    "name": "Laotian",
+    "code": "la"
+  }
 ]
- 

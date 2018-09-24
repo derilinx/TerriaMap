@@ -2,7 +2,7 @@ import csv
 import json
 import collections
 
-fields = ['key', 'notes', 'en', 'th', 'km', 'vm', 'my']
+fields = ['key', 'notes', 'en', 'th', 'km', 'vm', 'my', 'la']
 
 d = collections.defaultdict(list)
 translations = collections.defaultdict(lambda: d)
@@ -14,7 +14,7 @@ with open('translated.csv', 'r') as f:
 
     for line in reader:
         section, key = line['key'].split('.')
-        translations[section][key] = ["**%s" % line['en'], "[[%s]]" %line['en'], line['vm']]
+        translations[section][key] = ["[[%s]]" % line['en'], line['th'], line['vm'], line['my'], line['la']]
 
 with open('global.json', 'w') as f:
     json.dump(translations, f, indent=2)
