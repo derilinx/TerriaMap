@@ -1,0 +1,4772 @@
+{
+  "FeatureInfoDownload": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "Workbench": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "FeedbackForm": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "LeftRightSection": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "SharePanel": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "ViewingControls": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "DistanceLegend": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "SettingPanel": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "FeedbackButton": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "Clipboard": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "LocalizePanel": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "SidePanel": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "FeatureInfoPanel": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "OpacitySection": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }, 
+  "LocationBar": {
+    "Tip": [
+      "TIP:", 
+      "\u101e\u1010\u1004\u103a\u1038\u1015\u1031\u1038\u1001\u103b\u1000\u103a"
+    ], 
+    "Info": [
+      "info", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "Elev": [
+      "Elev", 
+      "\u101b\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u1015\u103c\u1004\u103a\u1021\u1019\u103c\u1004\u1037\u103a"
+    ], 
+    "Zone": [
+      "Zone", 
+      "\u1007\u102f\u1036"
+    ], 
+    "Both": [
+      "Both", 
+      "\u1014\u103e\u1005\u103a\u1001\u102f\u1005\u101c\u102f\u1036\u1038"
+    ], 
+    "OpenPrint": [
+      "Open a printable version of this map.", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f \u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "Shorten": [
+      "Shorten the share URL using a web service", 
+      "URL \u1000\u102d\u102f \u1010\u102d\u102f\u1010\u1031\u102c\u1004\u103a\u1038\u1005\u1031\u101b\u1014\u103a"
+    ], 
+    "Send": [
+      "Send", 
+      "\u1015\u102d\u102f\u1037\u101b\u1014\u103a"
+    ], 
+    "RemoveAll": [
+      "Remove All", 
+      "\u1021\u102c\u1038\u101c\u102f\u1036\u1038\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShowPrintView": [
+      "Show Print View", 
+      "\u1015\u102f\u1036\u1011\u103d\u1000\u103a\u1000\u103c\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "LearnMore": [
+      "Click on the map to learn more about a location", 
+      "\u1011\u1015\u103a\u1015\u103c\u102e\u1038\u101c\u1031\u1037\u101c\u102c\u101b\u1014\u103a"
+    ], 
+    "Split": [
+      "Split", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "ShareYourMap": [
+      "Share your map with others", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Print": [
+      "Print", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "CommentOrQuestion": [
+      "Comment or question", 
+      "\u1021\u1000\u103c\u1036\u1015\u103c\u102f\u1001\u103b\u1000\u103a \u101e\u102d\u102f\u1037\u1019\u101f\u102f\u1010\u103a \u1019\u1031\u1038\u1001\u103d\u1014\u103a\u1038"
+    ], 
+    "ShowBoth": [
+      "Show on both sides", 
+      "\u1014\u103e\u1005\u103a\u1018\u1000\u103a\u101c\u102f\u1036\u1038\u1010\u103d\u1004\u103a \u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Developers": [
+      "developers", 
+      "\u1016\u1014\u103a\u1010\u102e\u1038\u101e\u1030\u1019\u103b\u102c\u1038"
+    ], 
+    "MapView": [
+      "Map View", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "GiveFeedback": [
+      "Give feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a\u1015\u1031\u1038\u101b\u1014\u103a"
+    ], 
+    "3DSmooth": [
+      "3D Smooth", 
+      "\u1015\u103c\u1010\u103a\u101e\u102c\u1038\u101e\u1031\u102c 3D \u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038"
+    ], 
+    "LatLon": [
+      "Lat / Lon", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f/ \u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ], 
+    "DownloadTable": [
+      "Download this Table", 
+      "\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1012\u1031\u102b\u1004\u103a\u1038\u101c\u102f\u1015\u103a\u101c\u102f\u1015\u103a\u101b\u1014\u103a"
+    ], 
+    "AdvancedOptions": [
+      "Advanced Options", 
+      "\u1014\u1031\u102c\u1000\u103a\u1011\u1015\u103a\u101b\u103d\u1031\u1038\u1001\u103b\u101a\u103a\u1005\u101b\u102c\u1019\u103b\u102c\u1038"
+    ], 
+    "WorkbenchEmpty": [
+      "Your workbench is empty", 
+      "Workbench \u1010\u103d\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b"
+    ], 
+    "ActiveDataSets": [
+      "All your active data sets will be listed here", 
+      "\u101e\u102f\u1036\u1038\u1014\u1031\u101e\u1031\u102c \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u103b\u102c\u1038"
+    ], 
+    "CopyUnsuccessful": [
+      "copy unsuccessful!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1019\u103e\u102f \u1019\u1021\u1031\u102c\u1004\u103a\u1019\u103c\u1004\u103a\u1015\u102b"
+    ], 
+    "ZoomData": [
+      "Zoom to Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "RemoveData": [
+      "Remove This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1016\u101a\u103a\u101b\u1014\u103a"
+    ], 
+    "NoData": [
+      "No data is available here - try another location.", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1019\u101b\u103e\u102d\u1015\u102b\u104b \u1014\u1031\u102c\u1000\u103a\u1010\u1005\u103a\u1014\u1031\u101b\u102c\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u1015\u102b\u104b"
+    ], 
+    "E": [
+      "E", 
+      "\u1021\u101b\u103e\u1031\u1037"
+    ], 
+    "ClickAdd": [
+      "Click 'Add data' above to:", 
+      "Add Data' \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u1015\u102b"
+    ], 
+    "DuplicateSplit": [
+      "Duplicate and show splitter", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1014\u103e\u1005\u103a\u1015\u102d\u102f\u1004\u103a\u1038\u1001\u103d\u1032\u101b\u1014\u103a"
+    ], 
+    "BrowseData": [
+      "Browse the Data Catalogue", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a \u1011\u1015\u103a\u101b\u103e\u102c\u101e\u103d\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "Lat": [
+      "Lat", 
+      "\u101c\u1012\u103a\u1010\u102e\u1000\u103b\u102f"
+    ], 
+    "Copy": [
+      "Copy", 
+      "\u1000\u1030\u1038\u101a\u1030\u101b\u1014\u103a"
+    ], 
+    "Preamble": [
+      "We would love to hear from you!", 
+      "\u101e\u1004\u103a\u1015\u103c\u1031\u102c\u101e\u100a\u103a\u1000\u102d\u102f \u1014\u102c\u1038\u1011\u1031\u102c\u1004\u103a\u101c\u102d\u102f\u1015\u102b\u101e\u100a\u103a"
+    ], 
+    "FollowUp": [
+      "We can't follow up without it!", 
+      "\u104e\u1004\u103a\u1038\u1019\u1016\u1031\u102c\u103a\u1015\u103c\u1015\u102b\u1000 \u1019\u1015\u1036\u1037\u1015\u102d\u102f\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b"
+    ], 
+    "Sending": [
+      "Sending", 
+      "\u1015\u1031\u1038\u1015\u102d\u102f\u1037\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "ZoomTo": [
+      "Zoom to", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1001\u103b\u102f\u1036\u1037\u1001\u103b\u1032\u1037\u101b\u1014\u103a"
+    ], 
+    "KM": [
+      "KM", 
+      "\u1000\u102e\u101c\u102d\u102f\u1019\u102e\u1010\u102c"
+    ], 
+    "Language": [
+      "Language", 
+      "\u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Map": [
+      "Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "ShareUrl": [
+      "Share URL", 
+      "URL \u1021\u102c\u1038 \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "Troubleshoot": [
+      "This helps us to troubleshoot issues by letting us see what you're seeing", 
+      "\u101e\u1004\u103a\u1019\u103c\u1004\u103a\u1014\u1031\u101e\u100a\u103a\u1000\u102d\u102f \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u1010\u102d\u102f\u1037\u1000\u102d\u102f\u1019\u103c\u1004\u103a\u1005\u1031\u1001\u103c\u1004\u103a\u1038\u1016\u103c\u1004\u103a\u1037 \u1015\u103c\u103f\u1014\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u1016\u103c\u1031\u101b\u103e\u1004\u103a\u1038\u1015\u1031\u1038\u1014\u102d\u102f\u1004\u103a\u101e\u100a\u103a"
+    ], 
+    "M": [
+      "M", 
+      "\u1019\u102e\u1010\u102c"
+    ], 
+    "Remove": [
+      "Remove", 
+      "\u1016\u101a\u103a\u101b\u103e\u102c\u1038\u101b\u1014\u103a"
+    ], 
+    "ShareMyView": [
+      "Share my map view with", 
+      "\u1019\u102d\u1019\u102d\u104f\u1019\u103c\u1031\u1015\u102f\u1036\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1000\u102d\u102f \u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "2D": [
+      "2D", 
+      "2D"
+    ], 
+    "Cancel": [
+      "Cancel", 
+      "\u200b\u1006\u1000\u103a\u1019\u101c\u102f\u1015\u103a\u1015\u102b"
+    ], 
+    "ShowRight": [
+      "Show on the right side", 
+      "\u100a\u102c\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "Right": [
+      "Right", 
+      "\u100a\u102c\u1018\u1000\u103a"
+    ], 
+    "ShowLeft": [
+      "Show on the left side", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a\u1010\u103d\u1004\u103a\u1015\u103c\u101b\u1014\u103a"
+    ], 
+    "AddData": [
+      "Add Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1011\u100a\u103a\u1037\u101b\u1014\u103a"
+    ], 
+    "W": [
+      "W", 
+      "\u1021\u1014\u1031\u102c\u1000\u103a"
+    ], 
+    "SearchForLocations": [
+      "Search for Locations", 
+      "\u1010\u100a\u103a\u1014\u1031\u101b\u102c\u1019\u103b\u102c\u1038\u1000\u102d\u102f \u101b\u103e\u102c\u101b\u1014\u103a"
+    ], 
+    "Embed": [
+      "To embed, copy this code to embed this map into an HTML page:", 
+      "\u1024\u1019\u103c\u1031\u1015\u102f\u1036\u1000\u102d\u102f HTML \u101e\u102d\u102f\u1037 \u1011\u100a\u103a\u1037\u101e\u103d\u1004\u103a\u1038\u1014\u102d\u102f\u1004\u103a\u101b\u1014\u103a \u1024\u1000\u102f\u1012\u103a\u1021\u102c\u1038 \u1000\u1030\u1038\u101a\u1030\u1015\u102b"
+    ], 
+    "N": [
+      "N", 
+      "\u1019\u103c\u1031\u102c\u1000\u103a"
+    ], 
+    "3DTerrain": [
+      "3D Terrain", 
+      "3D \u1019\u103c\u1031\u1019\u103b\u1000\u103a\u1014\u103e\u102c\u101e\u103d\u1004\u103a\u1015\u103c\u1004\u103a"
+    ], 
+    "Copied": [
+      "copied!", 
+      "\u1000\u1030\u1038\u101a\u1030\u1015\u103c\u102e\u1038\u1015\u102b\u1015\u103c\u102e"
+    ], 
+    "Left": [
+      "Left", 
+      "\u1018\u101a\u103a\u1018\u1000\u103a"
+    ], 
+    "Opacity": [
+      "Opacity: (transparency)", 
+      "\u1021\u101c\u1004\u103a\u1038\u1021\u1019\u103e\u1031\u102c\u1004\u103a"
+    ], 
+    "CloseDataPanel": [
+      "Close data panel", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1015\u103c\u1007\u101a\u102c\u1038\u1000\u102d\u102f \u1015\u102d\u1010\u103a\u1015\u102b"
+    ], 
+    "FeatureInformation": [
+      "Feature Information", 
+      "\u1021\u101e\u1031\u1038\u1005\u102d\u1010\u103a\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a"
+    ], 
+    "DataSets": [
+      "Data Sets", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1005\u102f\u1019\u103b\u102c\u1038"
+    ], 
+    "CreatingPrintView": [
+      "Creating print view...", 
+      "\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a \u1015\u103c\u1004\u103a\u1006\u1004\u103a\u1001\u103c\u1004\u103a\u1038"
+    ], 
+    "Feedback": [
+      "Feedback", 
+      "\u1010\u102f\u1036\u1037\u1015\u103c\u1014\u103a\u1001\u103b\u1000\u103a"
+    ], 
+    "VisitingUrl": [
+      "Anyone visiting this URL will see this map view.", 
+      "URL \u101e\u102d\u102f\u1037 \u101d\u1004\u103a\u1000\u103c\u100a\u1037\u103a\u101b\u1014\u103a"
+    ], 
+    "Localization": [
+      "Localization", 
+      "\u1012\u1031\u101e\u101e\u102f\u1036\u1038 \u1018\u102c\u101e\u102c\u1005\u1000\u102c\u1038"
+    ], 
+    "Share": [
+      "Share", 
+      "\u1019\u103b\u103e\u101d\u1031\u101b\u1014\u103a"
+    ], 
+    "S": [
+      "S", 
+      "\u1010\u1031\u102c\u1004\u103a"
+    ], 
+    "AboutData": [
+      "About This Data", 
+      "\u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1021\u1000\u103c\u1031\u102c\u1004\u103a\u1038"
+    ], 
+    "EmailAddress": [
+      "Email address (optional)", 
+      "\u1021\u102e\u1038\u1019\u1031\u1038\u101c\u103a\u101c\u102d\u1015\u103a\u1005\u102c (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "PrintMap": [
+      "Print Map", 
+      "\u1019\u103c\u1031\u1015\u102f\u1036\u1011\u102f\u1010\u103a\u101b\u1014\u103a"
+    ], 
+    "ChangeView": [
+      "Change View", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u1031\u102c\u1004\u103a\u1038\u101b\u1014\u103a"
+    ], 
+    "YourName": [
+      "Your name (optional)", 
+      "\u101e\u1004\u103a\u104f\u1021\u1019\u100a\u103a (\u1019\u1016\u103c\u1005\u103a\u1019\u1014\u1031 \u1019\u101f\u102f\u1010\u103a\u1015\u102b)"
+    ], 
+    "LoadData": [
+      "Load your own data onto the map", 
+      "\u1000\u102d\u102f\u101a\u103a\u1015\u102d\u102f\u1004\u103a \u1021\u1001\u103b\u1000\u103a\u1021\u101c\u1000\u103a\u1000\u102d\u102f \u1011\u100a\u1037\u103a\u101e\u103d\u1004\u103a\u1038\u1015\u102b"
+    ], 
+    "ZoomExtent": [
+      "Zoom to Extent", 
+      "\u1019\u103c\u1004\u103a\u1000\u103d\u1004\u103a\u1038\u1015\u103c\u100a\u1037\u103a\u1019\u103c\u1004\u103a\u101b\u1014\u103a"
+    ], 
+    "BaseMap": [
+      "Base Map", 
+      "\u1021\u1031\u102c\u1000\u103a\u1001\u1036\u1019\u103c\u1031\u1015\u102f\u1036"
+    ], 
+    "Lon": [
+      "Lon", 
+      "\u101c\u1031\u102c\u1004\u103a\u1002\u103b\u102e\u1000\u103b\u102f"
+    ]
+  }
+}
