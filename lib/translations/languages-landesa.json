@@ -1,0 +1,12 @@
+[
+  {
+    "name": "English",
+    "code": "en_US",
+    "img": "en_us.png"
+  },
+  {
+    "name": "ဗမာ",
+    "code": "my",
+    "img": "my.png"
+  }
+]
