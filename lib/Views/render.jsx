@@ -4,8 +4,8 @@ import React from 'react';
 
 import { LocalizeProvider } from "react-localize-redux";
 import { renderToStaticMarkup } from "react-dom/server";
-import globalTranslations from "./../translations/global.json";
-import languages from "./../translations/languages.json";
+import globalTranslations from "./../translations/global-landesa.json";
+import languages from "./../translations/languages-landesa.json";
 
 
 export default function renderUi(terria, allBaseMaps, viewState) {
