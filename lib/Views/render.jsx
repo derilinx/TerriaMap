@@ -17,7 +17,13 @@ export default function renderUi(terria, allBaseMaps, viewState) {
 	  defaultLanguage: "my"
       };
 
-    ReactDOM.render(
+      languages.forEach(function(e) {
+	  if (e.img) {
+	      e.src = require('../../wwwroot/images/i18n/'+e.img)
+	  }
+      })
+      
+      ReactDOM.render(
 	    <LocalizeProvider>
 	    <UI terria={terria} allBaseMaps={allBaseMaps} viewState={viewState}
 	translation={globalTranslations} languages={languages} options={options}/>

@@ -1,22 +1,27 @@
 [
   {
     "name": "English",
-    "code": "en_US"
+    "code": "en_US",
+    "img": "en_us.png"
   },
   {
     "name": "Thai",
-    "code": "th"
+    "code": "th",
+    "img": "th.png"
   },
   {
     "name": "Vietnamese",
-    "code": "vm"
+    "code": "vm",
+    "img": "vn.png"
   },
   {
     "name": "Burmese",
-    "code": "my"
+    "code": "my",
+    "img": "my.png"
   },
   {
     "name": "Laotian",
-    "code": "la"
+    "code": "la",
+    "img": "la.png"
   }
 ]
