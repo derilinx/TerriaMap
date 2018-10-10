@@ -31,7 +31,7 @@
     "awsS3ServerConfigOverridePath": "s3://terria-apps/map/privateserverconfig-2016-08-31.json",
     "awsS3ClientConfigOverridePath": "s3://terria-apps/map/privateclientconfig-2016-08-31.json",
     "docker": {
-      "name": "repository.staging.derilinx.com/terriamap-landesa",
+      "name": "repository.staging.derilinx.com/terriamap-odm",
       "include": "wwwroot node_modules devserverconfig.json index.js package.json version.js"
     }
   },
