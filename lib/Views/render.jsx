@@ -12,9 +12,11 @@ export default function renderUi(terria, allBaseMaps, viewState) {
   let render = () => {
     const UI = require('./UserInterface').default;
 
+      let params = new URLSearchParams(document.location.search.substring(1));
+      
       const options = {
       	  renderToStaticMarkup,
-	  defaultLanguage: "my"
+	  defaultLanguage: params.get("lang") || "en_US"
       };
 
       languages.forEach(function(e) {
