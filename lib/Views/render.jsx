@@ -9,6 +9,11 @@ import languages from "./../translations/languages.json";
 
 
 export default function renderUi(terria, allBaseMaps, viewState) {
+       
+  let langChecker = (val) => {
+     return languages.some(e => e.code == val) && val 
+  }
+  
   let render = () => {
     const UI = require('./UserInterface').default;
 
@@ -16,7 +21,7 @@ export default function renderUi(terria, allBaseMaps, viewState) {
       
       const options = {
       	  renderToStaticMarkup,
-	  defaultLanguage: params.get("lang") || "en_US"
+	  defaultLanguage: langChecker(params.get("lang")) || "en_US"
       };
 
       languages.forEach(function(e) {
