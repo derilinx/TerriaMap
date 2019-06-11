@@ -15,5 +15,5 @@ with open('translated.csv', 'r') as f:
         section, key = line['key'].split('.')
         translations[section][key] = [line['en'], line['my']]
 
-with open('global_landesa.json', 'w') as f:
+with open('global-landesa.json', 'w') as f:
     json.dump(translations, f, indent=2)
