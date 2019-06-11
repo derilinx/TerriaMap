@@ -4,8 +4,7 @@ import collections
 
 fields = ['key', 'notes', 'en', 'th', 'km', 'vm', 'my', 'la']
 
-d = collections.defaultdict(list)
-translations = collections.defaultdict(lambda: d)
+translations = collections.defaultdict(dict)
 
 with open('translated.csv', 'r') as f:
     reader = csv.DictReader(f , fieldnames=fields)
