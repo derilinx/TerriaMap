@@ -16,7 +16,7 @@ with open('translated-complete.csv', 'r') as f:
             section, key = line['key'].split('.')
             print line['key']
             print section, key
-            translations[section][key] = [line['en'], line['th'], line['vm'], line['my'], line['la']]
+            translations[section][key] = [line['en'], line['th'], line['km'], line['vm'], line['my'], line['la']]
         except Exception as msg:
             #print msg
             #print line['key']

@@ -10,6 +10,11 @@
     "img": "th.png"
   },
   {
+    "name": "Khmer",
+    "code": "km",
+    "img": "kh.png"
+  },
+  {
     "name": "Vietnamese",
     "code": "vi",
     "img": "vn.png"
