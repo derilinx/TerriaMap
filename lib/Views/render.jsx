@@ -18,6 +18,9 @@ export default function renderUi(terria, allBaseMaps, viewState) {
     const UI = require('./UserInterface').default;
 
       let params = new URLSearchParams(document.location.search.substring(1));
+      let explorer= params.get('explorer') && true || false;
+
+      viewState.explorerPanelIsVisible = explorer;
       
       const options = {
       	  renderToStaticMarkup,
