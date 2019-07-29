@@ -26,3 +26,6 @@ npm serve
 # To build and run in docker on prod
 npm run gulp build && npm run docker-build-local
 pushd ../ckan-docker-compose/ && docker-compose build terriamap && docker-compose up -d && popd
+
+
+# on the mac, use the makefile...
