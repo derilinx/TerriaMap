@@ -4,14 +4,32 @@ NODE_IMAGE=node:6
 
 NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) npm
 
+
+help:
+	@echo "bash: bash shell in node"
+	@echo "init: install all of the node_module dependencies"
+	@echo "build: build terriamap"
+	@echo "build-terriajs: build the core terriajs"
+	@echo "local: build the docker image with the local tag"
+	@echo "build: build the docker image with the prod tag"
+
+bash:
+	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) bash
+
+build-terriajs:
+	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm run gulp build"
+
 build:
 	$(NPM) run gulp build
 
-local: build
+docker-build-local:
 	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-local
+local: build docker-build-local
 
-prod: build
+docker-build-prod:
 	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-prod
+
+prod: build docker-build-prod
 
 # no -ti
 watch:
@@ -19,13 +37,19 @@ watch:
 
 # need ports and no -ti
 dev-serve:
-	docker run -p 3001:3001 $(NODE_OPTS) $(NODE_IMAGE) node node_modules/terriajs-server/lib/app.js --config-file devserverconfig.json &
+	docker run -p 3001:3001 $(NODE_OPTS) $(NODE_IMAGE) node node_modules/terriajs-server/lib/app.js --config-file wwwroot/devserverconfig.json &
 
-init:
+init: build-image
 	$(NPM) install .
-	$(NPM) install gulp sync-dependencies
-	$(NPM) update
-	$(NPM) sync-dependencies --source terriajs --from packages/terriajs/package.json
+	$(NPM) install sync-dependencies
+
+	$(NPM) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
+	rm -r node_modules/terriajs
+	cd node_modules && ln -s ../packages/terriajs
+
+#	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+#docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install . && rm -rf node_modules/terriajs-cesium"
+#	($NPM) run gulp sync-terriajs-dependencies
 
 build-image:
 	docker build -t "node:6_docker" -f vendor/Dockerfile vendor
