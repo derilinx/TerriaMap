@@ -82,23 +82,23 @@ terria.start({
         var OpenStreetMapCatalogItem = require('terriajs/lib/Models/OpenStreetMapCatalogItem');
         var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
 
-        var odcambodia = new OpenStreetMapCatalogItem(terria);
-        odcambodia.name = "OpenStreetMap"
-        odcambodia.url = "https://tile.openstreetmap.org/"
+        var osm = new OpenStreetMapCatalogItem(terria);
+        osm.name = "OpenStreetMap"
+        osm.url = "https://tile.openstreetmap.org/"
         // https://a.tile.openstreetmap.org/9/391/223.png
-        odcambodia.attribution = '© OpenStreetMap contributors'
-        odcambodia.opacity = 1.0
-        odcambodia.subdomains=['a','b','c'];
+        osm.attribution = '© OpenStreetMap contributors'
+        osm.opacity = 1.0
+        osm.subdomains=['a','b','c'];
 
         var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
 
         globalBaseMaps.push(new BaseMapViewModel({
-            image:require('./node_modules/terriajs/wwwroot/images/positron.png'),
-            catalogItem: odcambodia,
+            image:require('terriajs/wwwroot/images/osm.png'),
+            catalogItem: osm,
             contrastColor: "#000000"})
         )
 
-        selectBaseMap(terria, globalBaseMaps, 'ODCambodia', true);
+        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
 
         render(terria, globalBaseMaps, viewState);
     } catch (e) {

@@ -23,6 +23,7 @@ function isBrowserSupportedAV() {
     return /Android|iPhone|iPad/i.test(navigator.userAgent);
 }
 
+// possibly pull the menu out here.
 function UserInterface(props) {
     return (
         <StandardUserInterface {... props} version={version}>
