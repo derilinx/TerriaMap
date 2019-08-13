@@ -70,7 +70,8 @@ terria.start({
                 key: terria.configParameters.bingMapsKey
             }),
             new NominatimSearchProviderViewModel({
-                terria: terria
+                terria: terria,
+                countryCodes:"ie"
             })
         ];
 

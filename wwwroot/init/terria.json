@@ -1,29 +1,30 @@
 {
-  "homeCamera": {
-    "lookAt": {
-        "targetLongitude": 98.0,
-        "targetLatitude": 22.0,
-        "targetHeight": 0,
-        "heading": 0,
-        "pitch": 90,
-        "range": 1000000
-    }
-},
-  "catalog": [
-    {
-      "name": "Map Layers",
-      "type": "wms-getCapabilities",
-      "url": "/geoserver/ows?SERVICE=WMS&",
-      "zoomOnEnable": true
+    "homeCamera": {
+        "lookAt": {
+            "targetLongitude": -7,
+            "targetLatitude": 53.5,
+            "targetHeight": 0,
+            "heading": 0,
+            "pitch": 90,
+            "range": 500000
+        }
     },
-    {
-      "name": "CKAN",
-      "type": "ckan",
-      "url": "/",
-      "includeGeoJson": true,
-      "zoomOnEnable": true,
-      "filterQuery": [{ "fq": "res_format:wms" }]
-	
-    }
-  ]
+    "catalog": [
+        {
+            "name": "Map Layers",
+            "type": "wms-getCapabilities",
+            "url": "/geoserver/ows?SERVICE=WMS&",
+            "zoomOnEnable": true
+        },
+        {
+            "name": "CKAN",
+            "type": "ckan",
+            "url": "/",
+            "includeGeoJson": true,
+            "zoomOnEnable": true,
+            "filterQuery": [{ "fq": "res_format:wms" }]
+        }
+    ],
+    "corsDomains": [],
+    "proxyDomains": ["nominatim.openstreetmap.org"]
 }
