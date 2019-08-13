@@ -29,3 +29,5 @@ pushd ../ckan-docker-compose/ && docker-compose build terriamap && docker-compos
 
 
 # on the mac, use the makefile...
+
+checkout TerriaMap here, checkout terriajs as a sibling.
