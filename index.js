@@ -69,6 +69,9 @@ terria.start({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
             }),
+            new NominatimSearchProviderViewModel({
+                terria: terria
+            })
         ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
