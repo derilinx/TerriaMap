@@ -102,7 +102,7 @@ terria.start({
             contrastColor: "#000000"})
         )
 
-        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
+        selectBaseMap(terria, globalBaseMaps, 'Bing Maps Roads', true);
 
         render(terria, globalBaseMaps, viewState);
     } catch (e) {
