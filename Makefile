@@ -22,6 +22,9 @@ build-terriajs:
 build:
 	$(NPM) run gulp build
 
+build-prod:
+	$(NPM) run gulp release
+
 docker-build-local:
 	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-local
 local: build docker-build-local
@@ -29,7 +32,7 @@ local: build docker-build-local
 docker-build-prod:
 	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-prod
 
-prod: build docker-build-prod
+prod: build-prod docker-build-prod
 
 # no -ti
 watch:
