@@ -1,5 +1,10 @@
-NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -v "$(realpath ../terriajs):/usr/src/packages/terriajs"
-NODE_IMAGE=node:6
+USER=$(shell id -u)
+GROUP=$(shell id -g)
+COMMON_NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -v "$(realpath ../terriajs):/usr/src/packages/terriajs" 
+NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP)
+DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
+NODE_VERSION=8
+NODE_IMAGE=node:$(NODE_VERSION)
 
 
 NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) npm
@@ -26,11 +31,11 @@ build-prod:
 	$(NPM) run gulp release
 
 docker-build-local:
-	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-local
+	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-local
 local: build docker-build-local
 
 docker-build-prod:
-	docker run -v "/var/run/docker.sock:/var/run/docker.sock" $(NODE_OPTS) node:6_docker npm run docker-build-prod
+	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-prod
 
 prod: build-prod docker-build-prod
 
@@ -42,17 +47,21 @@ watch:
 dev-serve:
 	docker run -p 3001:3001 $(NODE_OPTS) $(NODE_IMAGE) node node_modules/terriajs-server/lib/app.js --config-file wwwroot/devserverconfig.json &
 
-init: build-image
+init: build-image install yarn
+
+install:
 	$(NPM) install .
 	$(NPM) install sync-dependencies
 
-	$(NPM) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
+	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
 	rm -r node_modules/terriajs
 	cd node_modules && ln -s ../packages/terriajs
 
-#	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+yarn:
+	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+
 #docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install . && rm -rf node_modules/terriajs-cesium"
 #	($NPM) run gulp sync-terriajs-dependencies
 
 build-image:
-	docker build -t "node:6_docker" -f vendor/Dockerfile vendor
+	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
