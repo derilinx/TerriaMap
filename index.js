@@ -18,7 +18,6 @@ import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplica
 import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
 import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
 import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
-import NominatimSearchProviderViewModel from 'terriajs/lib/ViewModels/NominatimSearchProviderViewModel.js';
 import defined from 'terriajs-cesium/Source/Core/defined';
 import render from './lib/Views/render';
 
@@ -68,9 +67,6 @@ terria.start({
             new BingMapsSearchProviderViewModel({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
-            }),
-            new NominatimSearchProviderViewModel({
-                terria: terria
             })
         ];
 
