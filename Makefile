@@ -24,6 +24,9 @@ bash:
 build-terriajs:
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm run gulp build"
 
+build-docker-nodejs-image:
+	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
+
 build:
 	$(NPM) run gulp build
 
@@ -37,6 +40,7 @@ local: build docker-build-local
 docker-build-prod:
 	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-prod
 
+# requires build-docker-nodejs-image, but not often
 prod: build-prod docker-build-prod
 
 # no -ti
@@ -62,6 +66,3 @@ yarn:
 
 #docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install . && rm -rf node_modules/terriajs-cesium"
 #	($NPM) run gulp sync-terriajs-dependencies
-
-build-image:
-	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
