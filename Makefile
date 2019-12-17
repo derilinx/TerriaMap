@@ -1,7 +1,7 @@
 USER=$(shell id -u)
 GROUP=$(shell id -g)
 COMMON_NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -v "$(realpath ../terriajs):/usr/src/packages/terriajs" 
-NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP)
+NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
 NODE_VERSION=8
 NODE_IMAGE=node:$(NODE_VERSION)
