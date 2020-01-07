@@ -14,9 +14,9 @@ help:
 	@echo "bash: bash shell in node"
 	@echo "init: install all of the node_module dependencies"
 	@echo "build: build terriamap"
-	@echo "build-terriajs: build the core terriajs"
-	@echo "local: build the docker image with the local tag"
-	@echo "build: build the docker image with the prod tag"
+	@echo "prod: build the docker image with the prod tag"
+	@echo "watch: Live dev npm webpack run"
+	@echo "dev-serve: run the local server, to test use make watch && make dev-serve"
 
 bash:
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) bash
