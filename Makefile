@@ -51,7 +51,7 @@ watch:
 dev-serve:
 	docker run -p 3001:3001 $(NODE_OPTS) $(NODE_IMAGE) node node_modules/terriajs-server/lib/app.js --config-file wwwroot/devserverconfig.json &
 
-init: build-image install yarn
+init: build-docker-nodejs-image install yarn
 
 install:
 	$(NPM) install .
