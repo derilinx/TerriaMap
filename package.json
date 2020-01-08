@@ -4,7 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Geospatial catalog explorer based on TerriaJS.",
   "license": "Apache-2.0",
   "engines": {
@@ -19,6 +19,7 @@
     "grunt": "^1.0.3",
     "react-localize-redux": "^3.4.0",
     "redux": "^4.0.0",
+    "sync-dependencies": "^1.0.4",
     "terriajs-server": "^2.7.0"
   },
   "config": {
