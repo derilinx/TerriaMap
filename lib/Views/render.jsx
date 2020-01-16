@@ -24,7 +24,8 @@ export default function renderUi(terria, allBaseMaps, viewState) {
       
       const options = {
       	  renderToStaticMarkup,
-	  defaultLanguage: langChecker(params.get("lang")) || "en_US"
+	  defaultLanguage: langChecker(params.get("lang")) || "en_US",
+          defaultCountryCode: params.get('country_code') || "default"
       };
 
       languages.forEach(function(e) {
