@@ -4,14 +4,34 @@ import React from "react";
 import Variables from "../Styles/variables.scss";
 
 export default function renderUi(terria, allBaseMaps, viewState) {
+
+  let langChecker = (val) => {
+    // undone -- check which languages are available
+    return val;
+    //return languages.some(e => e.code == val) && val
+  };
+
   let render = () => {
     const UI = require("./UserInterface").default;
+
+    let params = new URLSearchParams(document.location.search.substring(1));
+    let explorer= params.get('explorer') && true || false;
+
+    viewState.explorerPanelIsVisible = explorer;
+
+    const options = {
+      defaultLanguage: langChecker(params.get("lang")) || "en_US",
+      defaultCountryCode: params.get('country_code') || "default"
+    };
+
+    // UNDONE themeOverrides vs options
     ReactDOM.render(
       <UI
         terria={terria}
         allBaseMaps={allBaseMaps}
         viewState={viewState}
         themeOverrides={Variables}
+        options={options}
       />,
       document.getElementById("ui")
     );
