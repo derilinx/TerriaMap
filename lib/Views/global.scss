@@ -15,8 +15,7 @@ body {
   }
 
   // To customise the look of your Terria Map, uncomment this section and make changes to your heart's content
-  // You will also want to uncomment and change values in lib/Styles/variables.scss
-  /*
+    // You will also want to uncomment and change values in lib/Styles/variables.scss
     // Import any custom fonts here
     //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
 
@@ -47,25 +46,126 @@ body {
         // background-repeat: no-repeat;
 
     }
-    // Background of whole left panel
+    // Background of whole left panel, side panel header
     .tjs-standard-user-interface__sidePanel {
-        background:$dark-darker;
+        background-color:$odm-dark-darker;
     }
+
+   .odm .tjs-standard-user-interface__sidePanel, .odm .tjs-side-panel__header, .odm .tjs-mobile-header__mobile-header {
+        background-color:$odm-dark-darker;
+    }
+
+   .odmy .tjs-standard-user-interface__sidePanel, .odmy .tjs-side-panel__header, .odmy .tjs-mobile-header__mobile-header {
+        background-color:$odmy-dark-darker;
+    }
+
+   .odv .tjs-standard-user-interface__sidePanel, .odv .tjs-side-panel__header, .odv .tjs-mobile-header__mobile-header{
+        background-color:$odv-dark-darker;
+    }
+
+   .odt .tjs-standard-user-interface__sidePanel, .odt .tjs-side-panel__header, .odt .tjs-mobile-header__mobile-header {
+        background-color:$odt-dark-darker;
+    }
+
+   .odl .tjs-standard-user-interface__sidePanel, .odl .tjs-side-panel__header, .odl .tjs-mobile-header__mobile-header {
+        background-color:$odl-dark-darker;
+    }
+
+   .odc .tjs-standard-user-interface__sidePanel, .odc .tjs-side-panel__header, .odc .tjs-mobile-header__mobile-header {
+        background-color:$odc-dark-darker;
+    }
+
+
     // Individual sections within the left panel
     .tjs-side-panel__workBench {
         font-family:$font-base;
         font-weight:400;
         font-size:18px;
-        background:$dark-darker;
+        background:$odm-dark-darker;
     }
 
+    .odm .tjs-side-panel__workBench, .odm .tjs-panel__inner, .odm .tjs-panel__caret {
+        background-color:$odm-dark-darker;
+    }
+
+    .odmy .tjs-side-panel__workBench, .odmy .tjs-panel__inner, .odmy .tjs-panel__caret  {
+        background-color:$odmy-dark-darker;
+    }
+
+    .odv .tjs-side-panel__workBench, .odv .tjs-panel__inner, .odv .tjs-panel__caret  {
+        background-color:$odv-dark-darker;
+    }
+
+    .odt .tjs-side-panel__workBench, .odt .tjs-panel__inner, .odt .tjs-panel__caret  {
+        background-color:$odt-dark-darker;
+    }
+
+    .odc .tjs-side-panel__workBench, .odc .tjs-panel__inner, .odc .tjs-panel__caret  {
+        background-color:$odc-dark-darker;
+    }
+
+    .odl .tjs-side-panel__workBench, .odl .tjs-panel__inner, .odl .tjs-panel__caret  {
+        background-color:$odl-dark-darker;
+    }
+
+
+    // Workbench item and Empty workbench background color---
+
+     .odm .tjs-workbench-item__workbench-item, .odm .tjs-side-panel__workbenchEmpty{
+         background-color: $odm-dark-with-overlay;
+     }
+
+     .odmy .tjs-workbench-item__workbench-item, .odmy .tjs-side-panel__workbenchEmpty{
+         background-color: $odmy-dark-with-overlay;
+     }
+
+     .odv .tjs-workbench-item__workbench-item, .odv .tjs-side-panel__workbenchEmpty {
+         background-color: $odv-dark-with-overlay;
+     }
+
+     .odc .tjs-workbench-item__workbench-item, .odc .tjs-side-panel__workbenchEmpty {
+          background-color: $odc-dark-with-overlay;
+     }
+
+     .odt .tjs-workbench-item__workbench-item, .odt .tjs-side-panel__workbenchEmpty {
+          background-color: $odt-dark-with-overlay;
+     }
+
+     .odl .tjs-workbench-item__workbench-item, .odl .tjs-side-panel__workbenchEmpty {
+          background-color: $odl-dark-with-overlay;
+     }
+
+
+    // Feature Information background and feature info title, header background color
+
+    .odm .tjs-feature-info-panel__panel, .odm .tjs-feature-info-section__title, .odm .tjs-feature-info-panel__header {
+          background-color: $odm-dark-darker;
+    }
+    .odmy .tjs-feature-info-panel__panel, .odmy .tjs-feature-info-section__title, .odmy .tjs-feature-info-panel__header {
+          background-color: $odmy-dark-darker;
+    }
+    .odv .tjs-feature-info-panel__panel, .odv .tjs-feature-info-section__title, .odv .tjs-feature-info-panel__header {
+          background-color: $odv-dark-darker;
+    }
+    .odc .tjs-feature-info-panel__panel, .odc .tjs-feature-info-section__title, .odc .tjs-feature-info-panel__header {
+          background-color: $odc-dark-darker;
+    }
+    .odl .tjs-feature-info-panel__panel, .odl .tjs-feature-info-section__title, .odl .tjs-feature-info-panel__header {
+          background-color: $odl-dark-darker;
+    }
+    .odt .tjs-feature-info-panel__panel, .odt .tjs-feature-info-section__title, .odt .tjs-feature-info-panel__header {
+          background-color: $odt-dark-darker;
+    }
+
+
+    /*
     // All kinds of buttons in various screens
     .tjs-_buttons__btn {
-        &-primary { 
-            font-family: $font-base; 
+        &-primary {
+            font-family: $font-base;
         }
-        &:hover { 
-            color: $color-primary;             
+        &:hover {
+            color: $color-primary;
         }
     }
 
@@ -77,11 +177,11 @@ body {
 
     // Lat/lon buttons
     .tjs-legend__locationBar, .tjs-legend__distanceLegend {
-        
+
         background:$dark;
         color:white;
         &:hover,&:focus { background: $dark; color: white; }
-    
+
     }
 
     // Progress bar while datasets are loading
@@ -96,7 +196,7 @@ body {
     }
 
     .tjs-timeline__text-cell {
-        font-family: $font-base; 
+        font-family: $font-base;
     }
 
     .tjs-timeline__timeline {
@@ -140,15 +240,15 @@ body {
     .tjs-data-catalog-item__btn-catalog-item--is-previewed {
         ,&:focus {color: $color-primary; }
     }
-      // The tabs at the top 
-    .tjs-tabs__btn--tab {    
+      // The tabs at the top
+    .tjs-tabs__btn--tab {
         font-family:$font-base
     }
 
     .tjs-tabs__btn--selected {
         color:$color-primary-dark;
     }
-    .tjs-tabs__btn--tab:hover {    
+    .tjs-tabs__btn--tab:hover {
         color:$color-secondary;
     }
     */
