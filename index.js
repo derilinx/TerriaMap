@@ -18,8 +18,6 @@ import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplica
 import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
 import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
 import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
-import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
-import GnafSearchProviderViewModel from 'terriajs/lib/ViewModels/GnafSearchProviderViewModel.js';
 import defined from 'terriajs-cesium/Source/Core/defined';
 import render from './lib/Views/render';
 
@@ -69,9 +67,7 @@ module.exports = terria.start({
             new BingMapsSearchProviderViewModel({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
-            }),
-            new GazetteerSearchProviderViewModel({terria}),
-            new GnafSearchProviderViewModel({terria})
+            })
         ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
@@ -79,41 +75,30 @@ module.exports = terria.start({
         updateApplicationOnMessageFromParentWindow(terria, window);
 
         // Create the various base map options.
-        var createAustraliaBaseMapOptions = require('terriajs/lib/ViewModels/createAustraliaBaseMapOptions');
         var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
         var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 
-        var australiaBaseMaps = createAustraliaBaseMapOptions(terria);
+        var OpenStreetMapCatalogItem = require('terriajs/lib/Models/OpenStreetMapCatalogItem');
+        var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
+
+        var osm = new OpenStreetMapCatalogItem(terria);
+        osm.name = "OpenStreetMap";
+        osm.url = "https://tile.openstreetmap.org/"'
+        // https://a.tile.openstreetmap.org/9/391/223.png
+        osm.attribution = '© OpenStreetMap contributors';
+        osm.opacity = 1.0;
+        osm.subdomains=['a','b','c'];
+
         var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
 
-        var allBaseMaps = australiaBaseMaps.concat(globalBaseMaps);
-        selectBaseMap(terria, allBaseMaps, 'Bing Maps Aerial with Labels', true);
+        globalBaseMaps.push(new BaseMapViewModel({
+            image:require('terriajs/wwwroot/images/osm.png'),
+            catalogItem: osm,
+          contrastColor: "#000000"
+        })
+                           );
 
-        // Show a modal disclaimer before user can do anything else.
-        if (defined(terria.configParameters.globalDisclaimer)) {
-            var globalDisclaimer = terria.configParameters.globalDisclaimer;
-            var hostname = window.location.hostname;
-            if (globalDisclaimer.enableOnLocalhost || hostname.indexOf('localhost') === -1) {
-                var message = '';
-                // Sometimes we want to show a preamble if the user is viewing a site other than the official production instance.
-                // This can be expressed as a devHostRegex ("any site starting with staging.") or a negative prodHostRegex ("any site not ending in .gov.au")
-                if (defined(globalDisclaimer.devHostRegex) && hostname.match(globalDisclaimer.devHostRegex) ||
-                    defined(globalDisclaimer.prodHostRegex) && !hostname.match(globalDisclaimer.prodHostRegex)) {
-                        message += require('./lib/Views/DevelopmentDisclaimerPreamble.html');
-                }
-                message += require('./lib/Views/GlobalDisclaimer.html');
-
-                var options = {
-                    title: (globalDisclaimer.title !== undefined) ? globalDisclaimer.title : 'Warning',
-                    confirmText: (globalDisclaimer.buttonTitle || "Ok"),
-                    width: 600,
-                    height: 550,
-                    message: message,
-                    horizontalPadding : 100
-                };
-                viewState.notifications.push(options);
-            }
-        }
+        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
 
         // Update the ViewState based on Terria config parameters.
         // Note: won't do anything unless terriajs version is >7.9.0
@@ -121,7 +106,7 @@ module.exports = terria.start({
             viewState.afterTerriaStarted();
         }
 
-        render(terria, allBaseMaps, viewState);
+        render(terria, globalBaseMaps, viewState);
     } catch (e) {
         console.error(e);
         console.error(e.stack);
