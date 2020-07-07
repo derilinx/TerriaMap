@@ -17,10 +17,8 @@ import Terria from 'terriajs/lib/Models/Terria';
 import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplicationOnHashChange';
 import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
 import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
-import BingMapsSearchProviderViewModel from 'terriajs/lib/Models/SearchProviders/BingMapsSearchProvider';
-// import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
-// import GnafSearchProviderViewModel from 'terriajs/lib/ViewModels/GnafSearchProviderViewModel.js';
-// import defined from 'terriajs-cesium/Source/Core/defined';
+import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
+import defined from 'terriajs-cesium/Source/Core/defined';
 import render from './lib/Views/render';
 import registerCatalogMembers from 'terriajs/lib/Models/Catalog/registerCatalogMembers';
 import defined from 'terriajs-cesium/Source/Core/defined';
@@ -92,47 +90,38 @@ module.exports = terria.start({
             new BingMapsSearchProviderViewModel({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
-            }),
-            // new GazetteerSearchProviderViewModel({terria}),
-            // new GnafSearchProviderViewModel({terria})
+            })
         ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
         updateApplicationOnHashChange(terria, window);
         updateApplicationOnMessageFromParentWindow(terria, window);
 
-        // Show a modal disclaimer before user can do anything else.
-        if (defined(terria.configParameters.globalDisclaimer)) {
-            var globalDisclaimer = terria.configParameters.globalDisclaimer;
-            var hostname = window.location.hostname;
-            if (globalDisclaimer.enableOnLocalhost || hostname.indexOf('localhost') === -1) {
-                var message = '';
-                // Sometimes we want to show a preamble if the user is viewing a site other than the official production instance.
-                // This can be expressed as a devHostRegex ("any site starting with staging.") or a negative prodHostRegex ("any site not ending in .gov.au")
-                if (defined(globalDisclaimer.devHostRegex) && hostname.match(globalDisclaimer.devHostRegex) ||
-                    defined(globalDisclaimer.prodHostRegex) && !hostname.match(globalDisclaimer.prodHostRegex)) {
-                        message += require('./lib/Views/DevelopmentDisclaimerPreamble.html');
-                }
-                message += require('./lib/Views/GlobalDisclaimer.html');
+        // Create the various base map options.
+        var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+        var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 
-                var options = {
-                    title: (globalDisclaimer.title !== undefined) ? globalDisclaimer.title : 'Warning',
-                    confirmText: (globalDisclaimer.buttonTitle || "Ok"),
-                    denyText: (globalDisclaimer.denyText || "Cancel"),
-                    denyAction: globalDisclaimer.afterDenyLocation ? function() {
-                        window.location = globalDisclaimer.afterDenyLocation;
-                    } : undefined,
-                    width: 600,
-                    height: 550,
-                    message: message,
-                    horizontalPadding : 100
-                };
-                runInAction(() => {
-                    viewState.disclaimerSettings = options;
-                    viewState.disclaimerVisible = true;
-                });
-            }
-        }
+        var OpenStreetMapCatalogItem = require('terriajs/lib/Models/OpenStreetMapCatalogItem');
+        var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
+
+        var osm = new OpenStreetMapCatalogItem(terria);
+        osm.name = "OpenStreetMap";
+        osm.url = "https://tile.openstreetmap.org/";
+        // https://a.tile.openstreetmap.org/9/391/223.png
+        osm.attribution = '© OpenStreetMap contributors';
+        osm.opacity = 1.0;
+        osm.subdomains=['a','b','c'];
+
+        var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
+
+        globalBaseMaps.push(new BaseMapViewModel({
+            image:require('terriajs/wwwroot/images/osm.png'),
+            catalogItem: osm,
+          contrastColor: "#000000"
+        })
+                           );
+
+        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
 
         // Add font-imports
         const fontImports = terria.configParameters.theme?.fontImports;
@@ -143,7 +132,7 @@ module.exports = terria.start({
           document.head.appendChild(styleSheet);
         }
 
-        render(terria, [], viewState);
+        render(terria, globalBaseMaps, viewState);
     } catch (e) {
         console.error(e);
         console.error(e.stack);
