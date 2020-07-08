@@ -83,7 +83,7 @@ module.exports = terria.start({
 
         var osm = new OpenStreetMapCatalogItem(terria);
         osm.name = "OpenStreetMap";
-        osm.url = "https://tile.openstreetmap.org/"'
+        osm.url = "https://tile.openstreetmap.org/";
         // https://a.tile.openstreetmap.org/9/391/223.png
         osm.attribution = '© OpenStreetMap contributors';
         osm.opacity = 1.0;
