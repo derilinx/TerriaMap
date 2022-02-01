@@ -7,7 +7,7 @@
 //$logo-height: 120px;
 
 // If using a non-standard font, remember to include an @import statement in global.scss
-$font-base: 'Josefin Sans', sans-serif; 
+$font-base: 'Josefin Sans', sans-serif;
 $font-pop: $font-base; // If you just want to use one font throughout, do this.
 
 // These variables are for buttons and text.
@@ -26,34 +26,38 @@ $color-primary-dark:darken($color-primary,10%);
 $dark-darker: hsl(0,30%,15%);
 */
 
+$odm-dark: #292c58;
+$odm-dark-with-overlay: #373b6d;
+$odm-dark-lighter: #373b6d;
+$odm-dark-darker: #292c58;
 
-$odm-dark:#292C58;
-$odm-dark-with-overlay:#373B6D;
-$odm-dark-lighter:#373B6D;
-$odm-dark-darker:#292C58;
+$odmy-dark: #59396c;
+$odmy-dark-with-overlay: #704c98;
+$odmy-dark-lighter: #704c98;
+$odmy-dark-darker: #59396c;
 
-$odmy-dark:#59396c;
-$odmy-dark-with-overlay:#704c98;
-$odmy-dark-lighter:#704c98;
-$odmy-dark-darker:#59396c;
+$odl-dark: #3b2226;
+$odl-dark-with-overlay: #583a43;
+$odl-dark-lighter: #583a43;
+$odl-dark-darker: #3b2226;
 
-$odl-dark:#3b2226;
-$odl-dark-with-overlay:#583a43;
-$odl-dark-lighter:#583a43;
-$odl-dark-darker:#3b2226;
+$odc-dark: #06323d;
+$odc-dark-with-overlay: #12414e;
+$odc-dark-lighter: #12414e;
+$odc-dark-darker: #06323d;
 
-$odc-dark:#06323d;
-$odc-dark-with-overlay:#12414e;
-$odc-dark-lighter:#12414e;
-$odc-dark-darker:#06323d;
+$odv-dark: #3e8330;
+$odv-dark-with-overlay: #50813b;
+$odv-dark-lighter: #50813b;
+$odv-dark-darker: #50813b;
 
-$odv-dark:#3e8330;
-$odv-dark-with-overlay:#50813b;
-$odv-dark-lighter:#50813b;
-$odv-dark-darker:#50813b;
+$odt-dark: #64161d;
+$odt-dark-with-overlay: #772028;
+$odt-dark-lighter: #772028;
+$odt-dark-darker: #64161d;
 
-$odt-dark:#64161d;
-$odt-dark-with-overlay:#772028;
-$odt-dark-lighter:#772028;
-$odt-dark-darker:#64161d;
-
+$focus-border-light-color: $text-light;
+$focus-border-dark-color: $text-dark;
+$focus-border-width: 2px;
+$focus-border: solid $focus-border-width $focus-border-light-color;
+$focus-border-dark: solid $focus-border-width $focus-border-dark-color;

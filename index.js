@@ -1,33 +1,42 @@
 'use strict';
 
-/*global require,window */
-
 var terriaOptions = {
     baseUrl: 'build/TerriaJS'
 };
 
+import { runInAction } from "mobx";
+
 // checkBrowserCompatibility('ui');
+import ConsoleAnalytics from 'terriajs/lib/Core/ConsoleAnalytics';
 import GoogleAnalytics from 'terriajs/lib/Core/GoogleAnalytics';
 import ShareDataService from 'terriajs/lib/Models/ShareDataService';
-import raiseErrorToUser from 'terriajs/lib/Models/raiseErrorToUser';
-import registerAnalytics from 'terriajs/lib/Models/registerAnalytics';
-import registerCatalogMembers from 'terriajs/lib/Models/registerCatalogMembers';
+// import registerAnalytics from 'terriajs/lib/Models/registerAnalytics';
+// import registerCatalogMembers from 'terriajs/lib/Models/registerCatalogMembers';
 import registerCustomComponentTypes from 'terriajs/lib/ReactViews/Custom/registerCustomComponentTypes';
 import Terria from 'terriajs/lib/Models/Terria';
 import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplicationOnHashChange';
 import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
 import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
-import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
-import defined from 'terriajs-cesium/Source/Core/defined';
+import BingMapsSearchProviderViewModel from 'terriajs/lib/Models/SearchProviders/BingMapsSearchProvider';
+// import GazetteerSearchProviderViewModel from 'terriajs/lib/ViewModels/GazetteerSearchProviderViewModel.js';
+// import GnafSearchProviderViewModel from 'terriajs/lib/ViewModels/GnafSearchProviderViewModel.js';
+// import defined from 'terriajs-cesium/Source/Core/defined';
 import render from './lib/Views/render';
+import registerCatalogMembers from 'terriajs/lib/Models/Catalog/registerCatalogMembers';
+import defined from 'terriajs-cesium/Source/Core/defined';
 
 // Register all types of catalog members in the core TerriaJS.  If you only want to register a subset of them
 // (i.e. to reduce the size of your application if you don't actually use them all), feel free to copy a subset of
 // the code in the registerCatalogMembers function here instead.
-registerCatalogMembers();
-registerAnalytics();
+// registerCatalogMembers();
+// registerAnalytics();
 
-terriaOptions.analytics = new GoogleAnalytics();
+// we check exact match for development to reduce chances that production flag isn't set on builds(?)
+if (process.env.NODE_ENV === "development") {
+    terriaOptions.analytics = new ConsoleAnalytics();
+} else {
+    terriaOptions.analytics = new GoogleAnalytics();
+}
 
 // Construct the TerriaJS application, arrange to show errors to the user, and start it up.
 var terria = new Terria(terriaOptions);
@@ -40,6 +49,8 @@ registerCustomComponentTypes(terria);
 const viewState = new ViewState({
     terria: terria
 });
+
+registerCatalogMembers();
 
 if (process.env.NODE_ENV === "development") {
     window.viewState = viewState;
@@ -59,15 +70,18 @@ module.exports = terria.start({
     shareDataService: new ShareDataService({
         terria: terria
     })
-}).otherwise(function(e) {
-    raiseErrorToUser(terria, e);
-}).always(function() {
+}).catch(function(e) {
+  terria.raiseErrorToUser(e);
+}).finally(function() {
+    terria.loadInitSources().then(result => result.raiseError(terria));
     try {
         viewState.searchState.locationSearchProviders = [
             new BingMapsSearchProviderViewModel({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
-            })
+            }),
+            // new GazetteerSearchProviderViewModel({terria}),
+            // new GnafSearchProviderViewModel({terria})
         ];
 
         // Automatically update Terria (load new catalogs, etc.) when the hash part of the URL changes.
@@ -99,11 +113,46 @@ module.exports = terria.start({
                            );
 
         selectBaseMap(terria, globalBaseMaps, 'Positron', true);
+        // Show a modal disclaimer before user can do anything else.
+        if (defined(terria.configParameters.globalDisclaimer)) {
+            var globalDisclaimer = terria.configParameters.globalDisclaimer;
+            var hostname = window.location.hostname;
+            if (globalDisclaimer.enableOnLocalhost || hostname.indexOf('localhost') === -1) {
+                var message = '';
+                // Sometimes we want to show a preamble if the user is viewing a site other than the official production instance.
+                // This can be expressed as a devHostRegex ("any site starting with staging.") or a negative prodHostRegex ("any site not ending in .gov.au")
+                if (defined(globalDisclaimer.devHostRegex) && hostname.match(globalDisclaimer.devHostRegex) ||
+                    defined(globalDisclaimer.prodHostRegex) && !hostname.match(globalDisclaimer.prodHostRegex)) {
+                        message += require('./lib/Views/DevelopmentDisclaimerPreamble.html');
+                }
+                message += require('./lib/Views/GlobalDisclaimer.html');
 
-        // Update the ViewState based on Terria config parameters.
-        // Note: won't do anything unless terriajs version is >7.9.0
-        if (defined(viewState.afterTerriaStarted)) {
-            viewState.afterTerriaStarted();
+                var options = {
+                    title: (globalDisclaimer.title !== undefined) ? globalDisclaimer.title : 'Warning',
+                    confirmText: (globalDisclaimer.buttonTitle || "Ok"),
+                    denyText: (globalDisclaimer.denyText || "Cancel"),
+                    denyAction: globalDisclaimer.afterDenyLocation ? function() {
+                        window.location = globalDisclaimer.afterDenyLocation;
+                    } : undefined,
+                    width: 600,
+                    height: 550,
+                    message: message,
+                    horizontalPadding : 100
+                };
+                runInAction(() => {
+                    viewState.disclaimerSettings = options;
+                    viewState.disclaimerVisible = true;
+                });
+            }
+        }
+
+        // Add font-imports
+        const fontImports = terria.configParameters.theme?.fontImports;
+        if (fontImports) {
+          const styleSheet = document.createElement("style");
+          styleSheet.type = "text/css";
+          styleSheet.innerText = fontImports;
+          document.head.appendChild(styleSheet);
         }
 
         render(terria, globalBaseMaps, viewState);
