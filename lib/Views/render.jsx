@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom";
 import RedBox from "redbox-react";
 import React from "react";
+import Variables from "../Styles/variables.scss";
 
 export default function renderUi(terria, allBaseMaps, viewState) {
-
-  let langChecker = (val) => {
+  let langChecker = val => {
     // undone -- check which languages are available
     return val;
     //return languages.some(e => e.code == val) && val
@@ -14,19 +14,21 @@ export default function renderUi(terria, allBaseMaps, viewState) {
     const UI = require("./UserInterface").default;
 
     let params = new URLSearchParams(document.location.search.substring(1));
-    let explorer= params.get('explorer') && true || false;
+    let explorer = (params.get("explorer") && true) || false;
 
     viewState.explorerPanelIsVisible = explorer;
 
     const options = {
       defaultLanguage: langChecker(params.get("lang")) || "en_US",
-      defaultCountryCode: params.get('country_code') || "default"
+      defaultCountryCode: params.get("country_code") || "default"
     };
 
-
     ReactDOM.render(
-      <UI terria={terria} allBaseMaps={allBaseMaps} viewState={viewState}
-          options={options}
+      <UI
+        terria={terria}
+        allBaseMaps={allBaseMaps}
+        viewState={viewState}
+        themeOverrides={Variables}
       />,
       document.getElementById("ui")
     );
