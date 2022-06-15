@@ -7,7 +7,7 @@ NODE_VERSION=14
 NODE_IMAGE=node:$(NODE_VERSION)
 YARN_IMAGE=yarn:$(NODE_VERSION)
 
-NPM=docker run $(NODE_OPTS) -ti $(YARN_IMAGE) yarn
+NPM=docker run $(NODE_OPTS) $(YARN_IMAGE) yarn
 
 
 help:
@@ -22,7 +22,7 @@ bash:
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) bash
 
 build-terriajs:
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm run gulp build"
+	docker run $(NODE_OPTS) $(NODE_IMAGE) sh -c "cd packages/terriajs && npm run gulp build"
 
 build-docker-nodejs-image:
 	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
