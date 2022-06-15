@@ -17,8 +17,7 @@ import Terria from 'terriajs/lib/Models/Terria';
 import updateApplicationOnHashChange from 'terriajs/lib/ViewModels/updateApplicationOnHashChange';
 import updateApplicationOnMessageFromParentWindow from 'terriajs/lib/ViewModels/updateApplicationOnMessageFromParentWindow';
 import ViewState from 'terriajs/lib/ReactViewModels/ViewState';
-import BingMapsSearchProviderViewModel from 'terriajs/lib/ViewModels/BingMapsSearchProviderViewModel.js';
-import defined from 'terriajs-cesium/Source/Core/defined';
+import BingMapsSearchProviderViewModel from 'terriajs/lib/Models/SearchProviders/BingMapsSearchProvider';
 import render from './lib/Views/render';
 import registerCatalogMembers from 'terriajs/lib/Models/Catalog/registerCatalogMembers';
 import defined from 'terriajs-cesium/Source/Core/defined';
@@ -87,7 +86,7 @@ module.exports = terria.start({
 
     try {
         viewState.searchState.locationSearchProviders = [
-            new BingMapsSearchProviderViewModel({
+            new BingMapsSearchProvider({
                 terria: terria,
                 key: terria.configParameters.bingMapsKey
             })
@@ -97,32 +96,36 @@ module.exports = terria.start({
         updateApplicationOnHashChange(terria, window);
         updateApplicationOnMessageFromParentWindow(terria, window);
 
-        // Create the various base map options.
-        var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
-        var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
+        // UNDONE V8 Upgrade
+        if (false) {
+            // Create the various base map options.
+            var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+            var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 
-        var OpenStreetMapCatalogItem = require('terriajs/lib/Models/OpenStreetMapCatalogItem');
-        var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
+            var OpenStreetMapCatalogItem = require('terriajs/lib/Models/Catalog/CatalogItems/OpenStreetMapCatalogItem');
+            var BaseMapViewModel = require('terriajs/lib/ViewModels/BaseMapViewModel');
 
-        var osm = new OpenStreetMapCatalogItem(terria);
-        osm.name = "OpenStreetMap";
-        osm.url = "https://tile.openstreetmap.org/";
-        // https://a.tile.openstreetmap.org/9/391/223.png
-        osm.attribution = '© OpenStreetMap contributors';
-        osm.opacity = 1.0;
-        osm.subdomains=['a','b','c'];
+            var osm = new OpenStreetMapCatalogItem(terria);
+            osm.name = "OpenStreetMap";
+            osm.url = "https://tile.openstreetmap.org/";
+            // https://a.tile.openstreetmap.org/9/391/223.png
+            osm.attribution = '© OpenStreetMap contributors';
+            osm.opacity = 1.0;
+            osm.subdomains=['a','b','c'];
 
-        var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
+            var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
 
-        globalBaseMaps.push(new BaseMapViewModel({
-            image:require('terriajs/wwwroot/images/osm.png'),
-            catalogItem: osm,
-          contrastColor: "#000000"
-        })
-                           );
+            globalBaseMaps.push(new BaseMapViewModel({
+                image:require('terriajs/wwwroot/images/osm.png'),
+                catalogItem: osm,
+                contrastColor: "#000000"
+            })
+                               );
 
-        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
-
+            selectBaseMap(terria, globalBaseMaps, 'Positron', true);
+        } else {
+            const globalBaseMaps=[];
+        }
         // Add font-imports
         const fontImports = terria.configParameters.theme?.fontImports;
         if (fontImports) {

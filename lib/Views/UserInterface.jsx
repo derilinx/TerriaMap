@@ -3,7 +3,7 @@ import {
   Nav,
   ExperimentalMenu
 } from "terriajs/lib/ReactViews/StandardUserInterface/customizable/Groups";
-import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/MeasureTool';
+import MeasureTool from 'terriajs/lib/ReactViews/Map/Navigation/Items/MeasureTool';
 import MenuItem from "terriajs/lib/ReactViews/StandardUserInterface/customizable/MenuItem";
 import PropTypes from "prop-types";
 import React from "react";
