@@ -53,7 +53,7 @@ dev-serve:
 
 init: build-docker-nodejs-image install yarn
 
-install:
+install: build-docker-nodejs-image build-yarn-image
 	$(NPM)
 	$(NPM) add --no-lockfile --dev -W sync-dependencies
 
