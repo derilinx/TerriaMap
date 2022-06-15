@@ -39,7 +39,7 @@
     "awsS3ServerConfigOverridePath": "s3://terria-apps/map/privateserverconfig-2016-08-31.json",
     "awsS3ClientConfigOverridePath": "s3://terria-apps/map/privateclientconfig-2018-11-19.json",
     "docker": {
-      "name": "data61/terria-terriamap",
+      "name": "terriamap",
       "include": "wwwroot node_modules devserverconfig.json index.js package.json version.js"
     }
   },
@@ -79,6 +79,7 @@
     "semver": "^5.0.0",
     "style-loader": "^0.23.1",
     "svg-sprite-loader": "4.1.3",
+    "sync-dependencies": "^1.0.4",
     "terriajs": "8.2.4",
     "terriajs-catalog-editor": "^0.2.0",
     "terriajs-cesium": "1.81.3",
@@ -95,7 +96,7 @@
   "scripts": {
     "docker-build-local": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto --local",
     "docker-build-prod": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto",
-    "docker-build-ci": "node ./deploy/docker/create-docker-context-for-node-components.js --build",
+    "docker-build-ci": "node ./deploy/docker/create-docker-context-for-node-components.js --build --tag auto",
     "start": "pm2 start ecosystem.config.js --update-env -- --config-file devserverconfig.json",
     "stop": "pm2 stop ecosystem.config.js",
     "pm2": "pm2",
