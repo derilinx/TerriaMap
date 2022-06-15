@@ -51,13 +51,14 @@ watch:
 dev-serve:
 	docker run -p 3001:3001 $(NODE_OPTS) $(NODE_IMAGE) node node_modules/terriajs-server/lib/app.js --config-file wwwroot/devserverconfig.json &
 
-init: build-docker-nodejs-image install yarn
+init: build-docker-nodejs-image build-yarn-image
+	$(MAKE) install
 
-install: build-docker-nodejs-image build-yarn-image
+install: 
 	$(NPM)
 	$(NPM) add --no-lockfile --dev -W sync-dependencies
 
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
+	docker run $(NODE_OPTS) $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
 	rm -r node_modules/terriajs
 	cd node_modules && ln -s ../packages/terriajs
 	$(NPM) gulp sync-terriajs-dependencies
