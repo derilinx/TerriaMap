@@ -3,11 +3,11 @@ GROUP=$(shell id -g)
 COMMON_NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -v "$(realpath ../terriajs):/usr/src/packages/terriajs" 
 NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
-NODE_VERSION=8
+NODE_VERSION=14
 NODE_IMAGE=node:$(NODE_VERSION)
 
 
-NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) npm
+NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
 
 
 help:
@@ -54,8 +54,8 @@ dev-serve:
 init: build-docker-nodejs-image install yarn
 
 install:
-	$(NPM) install .
-	$(NPM) install sync-dependencies
+	$(NPM)
+	$(NPM) yarn add sync-dependencies
 
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
 	rm -r node_modules/terriajs
