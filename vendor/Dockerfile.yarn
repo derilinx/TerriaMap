@@ -1,0 +1,4 @@
+ARG NODE_VERSION=12
+from node:$NODE_VERSION
+
+run npm install -g --force yarn && yarn -v

@@ -5,9 +5,9 @@ NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
 NODE_VERSION=14
 NODE_IMAGE=node:$(NODE_VERSION)
+YARN_IMAGE=yarn:$(NODE_VERSION)
 
-
-NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+NPM=docker run $(NODE_OPTS) -ti $(YARN_IMAGE) yarn
 
 
 help:
@@ -27,21 +27,21 @@ build-terriajs:
 build-docker-nodejs-image:
 	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
 
+build-yarn-image:
+	docker build -t "yarn:$(NODE_VERSION)" -f vendor/Dockerfile.yarn --build-arg NODE_VERSION=$(NODE_VERSION) vendor
+
 build:
 	$(NPM) run gulp build
 
 build-prod:
 	$(NPM) run gulp release
 
-docker-build-local:
-	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-local
-local: build docker-build-local
-
-docker-build-prod:
-	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-prod
+docker-build:
+	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-ci
+local: build docker-build
 
 # requires build-docker-nodejs-image, but not often
-prod: build-prod docker-build-prod
+prod: build-prod docker-build
 
 # no -ti
 watch:
@@ -55,14 +55,16 @@ init: build-docker-nodejs-image install yarn
 
 install:
 	$(NPM)
-	$(NPM) yarn add sync-dependencies
+	$(NPM) add --no-lockfile --dev -W sync-dependencies
 
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
 	rm -r node_modules/terriajs
 	cd node_modules && ln -s ../packages/terriajs
+	$(NPM) gulp sync-terriajs-dependencies
+	docker run $(NODE_OPTS) $(NODE_IMAGE) rm -rf node_modules/terriajs/node_modules/terriajs-cesium
 
 yarn:
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+	docker run $(NODE_OPTS) -ti $(YARN_IMAGE) yarn
 
 #docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install . && rm -rf node_modules/terriajs-cesium"
 #	($NPM) run gulp sync-terriajs-dependencies
