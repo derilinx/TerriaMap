@@ -31,13 +31,13 @@ build-yarn-image:
 	docker build -t "yarn:$(NODE_VERSION)" -f vendor/Dockerfile.yarn --build-arg NODE_VERSION=$(NODE_VERSION) vendor
 
 build:
-	$(NPM) run gulp build
+	$(NPM) run gulp build --baseHref="/terriamap/"
 
 build-prod:
 	$(NPM) run gulp release
 
 docker-build:
-	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-ci
+	docker run $(DOCKER_NODE_OPTS) node:$(NODE_VERSION)_docker npm run docker-build-ci --baseHref="/terriamap/"
 local: build docker-build
 
 # requires build-docker-nodejs-image, but not often
