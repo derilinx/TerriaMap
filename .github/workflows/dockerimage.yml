@@ -1,0 +1,35 @@
+name: BaseImage Build
+
+on:
+  push:
+    branches:
+      - map-explorer-labs-dev
+      - map-explorer-labs-prod
+  schedule:
+    - cron: '30 4 19 * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@master
+      with:
+        submodules: true
+        token: ${{secrets.GITHUB_TOKEN }}
+
+    - name: Docker login
+      run: docker login -u "${{secrets.DOCKER_USERNAME}}" -p "${{secrets.DOCKER_PW}}" "repository.staging.derilinx.com"
+
+    - name: Build the Docker image
+      run: make build
+
+    - name: Staging Push
+      if: contains(github.ref, '-dev')
+      run: make push
+
+    - name: Prod Push
+      if: contains(github.ref, '-prod')
+      run: make push-prod
