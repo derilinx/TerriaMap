@@ -1,7 +1,8 @@
 {
   /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
-  "initializationUrls": ["simple"],
+  "initializationUrls": [],
   "parameters": {
+    "serverConfigUrl": "",
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,

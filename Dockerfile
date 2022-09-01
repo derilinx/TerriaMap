@@ -10,7 +10,7 @@ COPY --chown=node:node . /app
 WORKDIR /app
 
 RUN yarn install
-RUN yarn gulp release
+RUN yarn gulp release --baseHref="/terriamap/"
 
 # deploy container
 FROM node:14-slim as deploy
