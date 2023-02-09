@@ -1,6 +1,6 @@
 USER=$(shell id -u)
 GROUP=$(shell id -g)
-GIT_REPLACE_URL_CONFIG=-e GIT_CONFIG_COUNT=1 -e GIT_CONFIG_KEY_0="url.https://.insteadOf" -e GIT_CONFIG_VALUE_0="git://"
+GIT_REPLACE_URL_CONFIG= -v "$(realpath git_url_config):/etc/gitconfig"
 COMMON_NODE_OPTS=$(GIT_REPLACE_URL_CONFIG) -w "/usr/src/TerriaMap" --rm -v "$(realpath ..):/usr/src" -v "$(realpath ../):/usr/src/TerriaMap/packages/"
 NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
@@ -8,7 +8,7 @@ NODE_VERSION=8
 NODE_IMAGE=node:$(NODE_VERSION)
 
 
-NPM=docker run $(NODE_OPTS) -ti $(NODE_IMAGE) npm
+NPM=docker run $(NODE_OPTS) $(NODE_IMAGE) npm
 
 
 help:
@@ -23,7 +23,7 @@ bash:
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) bash
 
 build-terriajs:
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install && npm run gulp build"
+	docker run $(NODE_OPTS) $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install && npm run gulp build"
 
 build-docker-nodejs-image:
 	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
@@ -58,12 +58,12 @@ install:
 	$(NPM) install .
 	$(NPM) install sync-dependencies
 
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
+	docker run $(NODE_OPTS) $(NODE_IMAGE) node_modules/.bin/sync-dependencies --source terriajs --from packages/terriajs/package.json
 	rm -r node_modules/terriajs
 	cd node_modules && ln -s ../packages/terriajs
 
 yarn:
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) yarn
+	docker run $(NODE_OPTS) $(NODE_IMAGE) yarn
 
 #docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install . && rm -rf node_modules/terriajs-cesium"
 #	($NPM) run gulp sync-terriajs-dependencies
