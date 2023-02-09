@@ -1,7 +1,7 @@
 USER=$(shell id -u)
 GROUP=$(shell id -g)
 GIT_REPLACE_URL_CONFIG=-e GIT_CONFIG_COUNT=1 -e GIT_CONFIG_KEY_0="url.https://.insteadOf" -e GIT_CONFIG_VALUE_0="git://"
-COMMON_NODE_OPTS=$(GIT_REPLACE_URL_CONFIG) -w "/usr/src/TerriaMap" --rm -v "$(realpath ..):/usr/src" -v "$(realpath ../):/usr/src/TerriaMap/packages/" -v "$(realpath ../../tmp):/tmp/"
+COMMON_NODE_OPTS=$(GIT_REPLACE_URL_CONFIG) -w "/usr/src/TerriaMap" --rm -v "$(realpath ..):/usr/src" -v "$(realpath ../):/usr/src/TerriaMap/packages/"
 NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
 NODE_VERSION=8
