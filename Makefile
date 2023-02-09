@@ -1,6 +1,7 @@
 USER=$(shell id -u)
 GROUP=$(shell id -g)
-COMMON_NODE_OPTS=-w "/usr/src" --rm -v "$(realpath .):/usr/src" -v "$(realpath ../terriajs):/usr/src/packages/terriajs" 
+GIT_REPLACE_URL_CONFIG=-e GIT_CONFIG_COUNT=1 -e GIT_CONFIG_KEY_0="url.https://.insteadOf" -e GIT_CONFIG_VALUE_0="git://"
+COMMON_NODE_OPTS=$(GIT_REPLACE_URL_CONFIG) -w "/usr/src/TerriaMap" --rm -v "$(realpath ..):/usr/src" -v "$(realpath ../):/usr/src/TerriaMap/packages/" -v "$(realpath ../../tmp):/tmp/"
 NODE_OPTS=$(COMMON_NODE_OPTS) -u $(USER):$(GROUP) -e HOME=/tmp
 DOCKER_NODE_OPTS=-v "/var/run/docker.sock:/var/run/docker.sock" $(COMMON_NODE_OPTS)
 NODE_VERSION=8
@@ -22,7 +23,7 @@ bash:
 	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) bash
 
 build-terriajs:
-	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm run gulp build"
+	docker run $(NODE_OPTS) -ti $(NODE_IMAGE) sh -c "cd packages/terriajs && npm install && npm run gulp build"
 
 build-docker-nodejs-image:
 	docker build -t "node:$(NODE_VERSION)_docker" -f vendor/Dockerfile --build-arg NODE_VERSION=$(NODE_VERSION) vendor
