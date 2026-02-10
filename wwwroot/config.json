@@ -234,7 +234,79 @@
         "term": "translate#helpContentTerm8.term",
         "content": "translate#helpContentTerm8.content"
       }
+    ],
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-stadia-alidade-smooth",
+    "enabledBaseMaps": [
+      "basemap-stadia-alidade-smooth",
+      "basemap-stadia-alidade-dark",
+      "basemap-stadia-osm-bright",
+      "basemap-stadia-stamen-terrain",
+      "basemap-stadia-stamen-toner"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-stadia-alidade-smooth",
+          "name": "Stadia Smooth (Light)",
+          "type": "open-street-map",
+          "url": "https://tiles.stadiamaps.com/tiles/alidade_smooth/",
+          "attribution": "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+          "opacity": 1.0,
+          "subdomains": []
+        },
+        "image": "/images/basemaps/stadia-smooth.png"
+      },
+      {
+        "item": {
+          "id": "basemap-stadia-alidade-dark",
+          "name": "Stadia Smooth (Dark)",
+          "type": "open-street-map",
+          "url": "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/",
+          "attribution": "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+          "opacity": 1.0,
+          "subdomains": []
+        },
+        "image": "/images/basemaps/stadia-dark.png"
+      },
+      {
+        "item": {
+          "id": "basemap-stadia-osm-bright",
+          "name": "Stadia OSM Bright",
+          "type": "open-street-map",
+          "url": "https://tiles.stadiamaps.com/tiles/osm_bright/",
+          "attribution": "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+          "opacity": 1.0,
+          "subdomains": []
+        },
+        "image": "/images/basemaps/stadia-osm-bright.png"
+      },
+      {
+        "item": {
+          "id": "basemap-stadia-stamen-terrain",
+          "name": "Stadia Terrain",
+          "type": "open-street-map",
+          "url": "https://tiles.stadiamaps.com/tiles/stamen_terrain/",
+          "attribution": "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+          "opacity": 1.0,
+          "subdomains": []
+        },
+        "image": "/images/basemaps/stadia-terrain.png"
+      },
+      {
+        "item": {
+          "id": "basemap-stadia-stamen-toner",
+          "name": "Stadia Toner",
+          "type": "open-street-map",
+          "url": "https://tiles.stadiamaps.com/tiles/stamen_toner/",
+          "attribution": "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+          "opacity": 1.0,
+          "subdomains": []
+        },
+        "image": "/images/basemaps/stadia-toner.png"
+      }
     ]
+  }
     // Or direct strings
     // "helpContent": [
     //   {
