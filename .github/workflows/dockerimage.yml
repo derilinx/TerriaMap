@@ -5,6 +5,7 @@ on:
     branches:
       - map-explorer-labs-dev
       - map-explorer-labs-prod
+      - DE-423
   schedule:
     - cron: '30 4 19 * *'
 
