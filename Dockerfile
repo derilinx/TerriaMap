@@ -1,8 +1,8 @@
 # develop container
-FROM node:14 as develop
+FROM node:14-bullseye AS develop
 
 # build container
-FROM node:14 as build
+FROM node:14-bullseye AS build
 USER node
 
 COPY --chown=node:node . /app
@@ -10,10 +10,11 @@ COPY --chown=node:node . /app
 WORKDIR /app
 
 RUN yarn install
-RUN yarn gulp release --baseHref="/terriamap/"
+RUN yarn gulp release
+RUN sed -i 's|<base href="/">|<base href="/terriamap/">|g' /app/wwwroot/index.html
 
 # deploy container
-FROM node:14-slim as deploy
+FROM node:14-bullseye-slim AS deploy
 
 USER node
 

@@ -1,6 +1,6 @@
 PHONY: build help update promote-staging
 
-IMAGE=terria-mapexplorer-v8
+IMAGE=terria-mapexplorer-v8-stadiamaps
 # building it ourselves
 SRC_TAG=latest
 
