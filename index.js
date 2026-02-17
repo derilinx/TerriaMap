@@ -26,6 +26,7 @@ import registerCatalogMembers from 'terriajs/lib/Models/Catalog/registerCatalogM
 import defined from 'terriajs-cesium/Source/Core/defined';
 import loadPlugins from "./lib/Core/loadPlugins";
 import plugins from "./plugins";
+import CommonStrata from 'terriajs/lib/Models/Definition/CommonStrata';
 
 // Register all types of catalog members in the core TerriaJS.  If you only want to register a subset of them
 // (i.e. to reduce the size of your application if you don't actually use them all), feel free to copy a subset of
@@ -139,6 +140,98 @@ module.exports = terria.start({
           styleSheet.innerText = fontImports;
           document.head.appendChild(styleSheet);
         }
+
+        // Set up Stadia basemaps, replacing the defaults
+        runInAction(() => {
+            terria.baseMapsModel.loadFromJson(CommonStrata.definition, {
+                defaultBaseMapId: "basemap-stadia-smooth",
+                enabledBaseMaps: [
+                    "basemap-stadia-smooth",
+                    "basemap-stadia-dark",
+                    "basemap-stadia-osm-bright",
+                    "basemap-stadia-terrain",
+                    "basemap-stadia-toner"
+                ],
+                items: [
+                    {
+                        item: {
+                            id: "basemap-stadia-smooth",
+                            name: "Stadia Smooth (Light)",
+                            type: "open-street-map",
+                            url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/",
+                            attribution: "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                            opacity: 1.0,
+                            subdomains: []
+                        },
+                        image: "images/basemaps/stadia-smooth.png",
+                        contrastColor: "#000000"
+                    },
+                    {
+                        item: {
+                            id: "basemap-stadia-dark",
+                            name: "Stadia Smooth (Dark)",
+                            type: "open-street-map",
+                            url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/",
+                            attribution: "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                            opacity: 1.0,
+                            subdomains: []
+                        },
+                        image: "images/basemaps/stadia-dark.png",
+                        contrastColor: "#ffffff"
+                    },
+                    {
+                        item: {
+                            id: "basemap-stadia-osm-bright",
+                            name: "Stadia OSM Bright",
+                            type: "open-street-map",
+                            url: "https://tiles.stadiamaps.com/tiles/osm_bright/",
+                            attribution: "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://openmaptiles.org/'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                            opacity: 1.0,
+                            subdomains: []
+                        },
+                        image: "images/basemaps/stadia-osm-bright.png",
+                        contrastColor: "#000000"
+                    },
+                    {
+                        item: {
+                            id: "basemap-stadia-terrain",
+                            name: "Stadia Terrain",
+                            type: "open-street-map",
+                            url: "https://tiles.stadiamaps.com/tiles/stamen_terrain/",
+                            attribution: "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                            opacity: 1.0,
+                            subdomains: []
+                        },
+                        image: "images/basemaps/stadia-terrain.png",
+                        contrastColor: "#000000"
+                    },
+                    {
+                        item: {
+                            id: "basemap-stadia-toner",
+                            name: "Stadia Toner",
+                            type: "open-street-map",
+                            url: "https://tiles.stadiamaps.com/tiles/stamen_toner/",
+                            attribution: "© <a href='https://stadiamaps.com/'>Stadia Maps</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>",
+                            opacity: 1.0,
+                            subdomains: []
+                        },
+                        image: "images/basemaps/stadia-toner.png",
+                        contrastColor: "#ffffff"
+                    }
+                ]
+            });
+
+            // Explicitly set the default basemap after loading
+            terria.baseMapsModel.setTrait(CommonStrata.definition, "defaultBaseMapId", "basemap-stadia-smooth");
+            setTimeout(() => {
+                const defaultBaseMap = terria.baseMapsModel.baseMapItems.find(
+                    b => b.item.uniqueId === "basemap-stadia-smooth"
+                );
+                if (defaultBaseMap) {
+                    terria.mainViewer.setBaseMap(defaultBaseMap.item);
+                }
+            }, 1000);
+        });
 
         render(terria, [], viewState);
     } catch (e) {
