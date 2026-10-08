@@ -74,8 +74,8 @@ module.exports = terria.start({
         updateApplicationOnHashChange(terria, window);
         updateApplicationOnMessageFromParentWindow(terria, window);
 
-        // Create the various base map options.
-        var createGlobalBaseMapOptions = require('terriajs/lib/ViewModels/createGlobalBaseMapOptions');
+        // Do not use default basemaps from TerriaJS
+        var globalBaseMaps = [];
         var selectBaseMap = require('terriajs/lib/ViewModels/selectBaseMap');
 
         var OpenStreetMapCatalogItem = require('terriajs/lib/Models/OpenStreetMapCatalogItem');
@@ -89,7 +89,6 @@ module.exports = terria.start({
         osm.opacity = 1.0;
         osm.subdomains=['a','b','c'];
 
-        var globalBaseMaps = createGlobalBaseMapOptions(terria, terria.configParameters.bingMapsKey);
 
         globalBaseMaps.push(new BaseMapViewModel({
             image:require('terriajs/wwwroot/images/osm.png'),
@@ -98,7 +97,58 @@ module.exports = terria.start({
         })
                            );
 
-        selectBaseMap(terria, globalBaseMaps, 'Positron', true);
+        // add stadia maps
+        var stadiaAttribution = "© <a href='https://stadiamaps.com/' target='_blank'>Stadia Maps</a> © <a href='https://openmaptiles.org/' target='_blank'>OpenMapTiles</a> © <a href='https://www.openstreetmap.org/copyright' target='_blank'>OpenStreetMap</a>";
+
+        var stadiaBaseMaps = [
+            {
+                name: "Stadia Smooth (Light)",
+                url: "https://tiles.stadiamaps.com/tiles/alidade_smooth/",
+                image: require('./wwwroot/images/basemaps/stadia-smooth.png'),
+                contrastColor: "#000000"
+            },
+            {
+                name: "Stadia Smooth (Dark)",
+                url: "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/",
+                image: require('./wwwroot/images/basemaps/stadia-dark.png'),
+                contrastColor: "#ffffff"
+            },
+            {
+                name: "Stadia OSM Bright",
+                url: "https://tiles.stadiamaps.com/tiles/osm_bright/",
+                image: require('./wwwroot/images/basemaps/stadia-osm-bright.png'),
+                contrastColor: "#000000"
+            },
+            {
+                name: "Stadia Terrain",
+                url: "https://tiles.stadiamaps.com/tiles/stamen_terrain/",
+                image: require('./wwwroot/images/basemaps/stadia-terrain.png'),
+                contrastColor: "#000000"
+            },
+            {
+                name: "Stadia Toner",
+                url: "https://tiles.stadiamaps.com/tiles/stamen_toner/",
+                image: require('./wwwroot/images/basemaps/stadia-toner.png'),
+                contrastColor: "#ffffff"
+            }
+        ];
+
+        stadiaBaseMaps.forEach(function(def) {
+            var item = new OpenStreetMapCatalogItem(terria);
+            item.name = def.name;
+            item.url = def.url;
+            item.attribution = stadiaAttribution;
+            item.opacity = 1.0;
+
+            globalBaseMaps.push(new BaseMapViewModel({
+                image: def.image,
+                catalogItem: item,
+                contrastColor: def.contrastColor
+            }));
+        });
+
+        // Default basemap is set to stadia maps alidade smooth
+        selectBaseMap(terria, globalBaseMaps, 'Stadia Smooth (Light)', true);
 
         // Update the ViewState based on Terria config parameters.
         // Note: won't do anything unless terriajs version is >7.9.0

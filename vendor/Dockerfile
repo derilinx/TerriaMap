@@ -1,6 +1,5 @@
 ARG NODE_VERSION=6
-from node:$NODE_VERSION
+FROM node:$NODE_VERSION
 
-run cd /tmp && \
-    wget https://download.docker.com/linux/debian/dists/jessie/pool/test/amd64/docker-ce-cli_18.09.0~ce~0.5.tp5-0~debian_amd64.deb && \
-    dpkg -i *.deb && rm *.deb
+# Static Docker CLI copied from the official image, replacing the old 18.09 .deb
+COPY --from=docker:27-cli /usr/local/bin/docker /usr/local/bin/docker
